@@ -92,7 +92,7 @@ The report distinguishes three claims: a task-specific mapping from sequence rep
 | Complete compact result tables | [`results/`](results/) |
 | Report and figure previews | [`reports/`](reports/), [`figures/`](figures/) |
 
-Run the small CPU tests with `python -m unittest discover -s tests -v`. They require no model download. The released checkpoint also passes a separate comparison against the original implementation and saved predictions; see [checkpoint parity](docs/checkpoint_parity.json).
+Run the small CPU tests with `python -m unittest discover -s tests -v`. They require no model download. The released checkpoint also passes a separate comparison against the original implementation and saved predictions; see [checkpoint parity](docs/checkpoint_parity.json). The [installed CLI check](docs/package_validation.json) and [public-download verification](docs/release_verification.json) record the release checks.
 
 ## Attribution
 
