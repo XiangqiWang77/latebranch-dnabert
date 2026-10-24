@@ -1,0 +1,13 @@
+{
+  "source_project": "XiangqiWang77/allelworld-rtx6000-demo",
+  "source_protocol": "stability_v3_20261019",
+  "source_files": {
+    "source_frozen/intervention_dnabert.py": "1e0c5c42a6244a28e0f0113b7b35792aa5ce0813ffc5f02bd24e13c4b5e26a66",
+    "model.py": "9eaa20d9e6c39fe5dc99f769476a2996d03fb857b346ddf7e30505940ea8dcaf",
+    "collator.py": "98ae017ebbf7a8184956b1429b2caee1a43a3ccf212b9e7c2d53b112b0c7515b",
+    "likelihood.py": "8ce3d975f7c831a3082217a25bc564c87f74e0c74c4f71a0d5be790c68f46a4b",
+    "experiment.py": "afbfcc2917f5fe726d0be795856492c198aa167a5fe2e431f159fc7e754f0a64"
+  },
+  "extraction": "Model operations retained; legacy data/scheduler imports removed; public input and command-line interfaces are new. See checkpoint_parity.json for measured packaging equivalence.",
+  "upstream_backbone": "7bce263b15377fc15361f52cfab88f8b586abda0"
+}

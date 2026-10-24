@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "training_performed": false,
+  "source_checkpoint_sha256": "463b3655d1a5f64b03179132ccf4e2825592748fe7fb89e309f846f12c6c29da",
+  "release_checkpoint_sha256": "f73de5b404a80486be62298eeddbb43f57d8e7818f9376732734d8b8978b57c0",
+  "release_checkpoint_bytes": 175992115,
+  "legacy_parity": [
+    {
+      "strand": "forward",
+      "rows": 4,
+      "max_absolute_logit_error": 0.0,
+      "token_geometry_exact": true
+    },
+    {
+      "strand": "reverse",
+      "rows": 4,
+      "max_absolute_logit_error": 0.0,
+      "token_geometry_exact": true
+    }
+  ],
+  "archived_raw_predictions_max_absolute_error": 2.0563602447509766e-06,
+  "synthetic_example_rows": 4,
+  "identity_candidate_exact_zero": true,
+  "backbone_revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+  "package_sources": {
+    "latebranch/__init__.py": "80244a5f09e1161890694999e96671b52c2a026ee53097f7590bccfbc4600ad7",
+    "latebranch/__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "latebranch/_core.py": "729211678c45025abc2d7cdf97d267c4613393dfce9df991cefc8a32d297b1b0",
+    "latebranch/cli.py": "a605975f94226c4283d1504fe3f027c4657ec4889b08841c373a9726f69ac223",
+    "latebranch/data.py": "64e77aeb11eafa2ac0a10212761786c3261f22f79255f0d90324c44df2c6ab93",
+    "latebranch/evaluation.py": "7bef2420688b28096eeb495b03639379b2408253e0b9fc26225a57620de11a2d",
+    "latebranch/inference.py": "546a335af372e0c9705c20064ecb8b1cbdcc23988e531e672c942f6bad43e5a5",
+    "latebranch/likelihood.py": "0d47f71a26e496ca6227b1392621ea2c1367d9db1e8fabd52c4103b94b14db0e",
+    "latebranch/model.py": "fb2b0bbd1a404f7e531d048c63520a86550bc4f53abd0093460884360cf34c20",
+    "latebranch/runtime.py": "f8d559aa4d4f819611937ba68a5c5f95d856ba2108de4773831fc536477fa332",
+    "latebranch/training.py": "603f1f8aa2339af05cb8ee6f8ce3e46ef94b366eebb2545cb1047b916f5e1d97"
+  }
+}

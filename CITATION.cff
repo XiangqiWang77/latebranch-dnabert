@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this software repository and the DNABERT-2/EN-TEx sources used in your work."
+type: software
+title: "LateBranch-DNABERT: Shared-reference interventions for allelic log-ratio prediction"
+authors:
+  - family-names: Aishan
+    given-names: Dilinuer
+  - family-names: Rozowsky
+    given-names: Joel
+version: 0.1.0
+date-released: 2026-10-24
+repository-code: "https://github.com/XiangqiWang77/latebranch-dnabert"
+url: "https://github.com/XiangqiWang77/latebranch-dnabert"

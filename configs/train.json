@@ -1,0 +1,17 @@
+{
+  "model_type": "latebranch",
+  "branch_layer": 8,
+  "position_aware": true,
+  "train_last_n": 4,
+  "max_tokens": 128,
+  "seed": 13,
+  "batch_size": 128,
+  "head_lr": 0.0001,
+  "backbone_lr": 0.00001,
+  "weight_decay": 0.01,
+  "head_only_epochs": 1,
+  "max_epochs": 8,
+  "min_epochs": 3,
+  "patience": 3,
+  "min_delta": 0.00001
+}

@@ -1,0 +1,44 @@
+{
+  "repo_id": "zhihan1996/DNABERT-2-117M",
+  "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+  "files": {
+    "bert_layers.py": {
+      "sha256": "317ad7e9667980ac724c07f0174ba265c8446ca5230f6b473068ff1b911edcf9",
+      "bytes": 40690
+    },
+    "bert_padding.py": {
+      "sha256": "44d1c68afb1f585fdc66c150d4c60f1ed44a89c006abc57d50531d71940d7421",
+      "bytes": 6099
+    },
+    "config.json": {
+      "sha256": "ba9bdafaff0cc3e30556927474d4a179519a9864012bed2628e9f1bc23c84bfd",
+      "bytes": 904
+    },
+    "configuration_bert.py": {
+      "sha256": "95fc868641b87bbcd7a32d2cd7b9f4769c27592e129daf167d14b5b8c74ec4c5",
+      "bytes": 1011
+    },
+    "flash_attn_triton.py": {
+      "sha256": "568d1ac3beca0b5e1df528a1f136aa19b6489a616fcf3784f33336a50bb1de81",
+      "bytes": 42737
+    },
+    "generation_config.json": {
+      "sha256": "c993e393c12525ea015019130f83c90502efaa6de8d019e94856555614d9fae3",
+      "bytes": 90
+    },
+    "pytorch_model.bin": {
+      "sha256": "7ff39ec77a484dd01070a41bfd6e95cdd7247bec80fe357ab43a4be33687aeba",
+      "bytes": 468354983
+    },
+    "tokenizer.json": {
+      "sha256": "5d178e8ce2ba55df97fff197f4b30f40133b95d7096be398c2df6b526c5d8cd3",
+      "bytes": 167908
+    },
+    "tokenizer_config.json": {
+      "sha256": "f9d18c81f4dd9dd7db02e9f27cc1203228147d890bfce9167c3af6465ff5b769",
+      "bytes": 158
+    }
+  },
+  "license": "Apache-2.0",
+  "purpose": "Exact DNABERT-2 assets used by the released LateBranch checkpoint"
+}

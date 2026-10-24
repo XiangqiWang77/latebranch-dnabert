@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latebranch-dnabert"
+version = "0.1.0"
+description = "Shared-reference DNABERT-2 interventions for allele-specific count prediction"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+dependencies = [
+  "torch>=2.2,<3", "transformers==4.29.2", "tokenizers==0.13.3",
+  "huggingface-hub>=0.23,<1", "numpy>=1.26,<3", "pandas>=2,<3",
+  "scipy>=1.11,<2", "einops>=0.6,<1"
+]
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.8,<4"]
+
+[project.scripts]
+latebranch = "latebranch.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["latebranch*"]
+
+[tool.setuptools.package-data]
+latebranch = ["backbone_manifest.json"]

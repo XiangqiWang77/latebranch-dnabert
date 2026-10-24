@@ -1,0 +1,24 @@
+{
+  "assays": [
+    "CTCF",
+    "H3K27ac",
+    "H3K4me3",
+    "ATAC-seq",
+    "RNA-seq"
+  ],
+  "rho": [
+    0.12265756466774842,
+    0.10343021930304294,
+    0.09342541763330062,
+    0.23558623020850944,
+    0.11317700224072583
+  ],
+  "scales": [
+    0.6896288611041681,
+    0.8091332858029763,
+    0.7544993536909541,
+    0.6277705142662078,
+    0.5737144560576017
+  ],
+  "scope": "Primary scale calibration from the released window-model experiment; fixed calibration components, seed13"
+}

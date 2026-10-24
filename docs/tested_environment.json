@@ -1,0 +1,12 @@
+{
+  "torch": "2.12.0.dev20260318+cu128",
+  "transformers": "4.29.2",
+  "tokenizers": "0.13.3",
+  "huggingface-hub": "0.36.2",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "scipy": "1.15.3",
+  "einops": "0.6.1",
+  "matplotlib": "3.10.8",
+  "pytest": "not installed"
+}

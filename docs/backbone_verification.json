@@ -1,0 +1,16 @@
+{
+  "repository": "zhihan1996/DNABERT-2-117M",
+  "revision": "7bce263b15377fc15361f52cfab88f8b586abda0",
+  "upstream_code_and_tokenizer_byte_checks": [
+    "bert_layers.py",
+    "bert_padding.py",
+    "config.json",
+    "configuration_bert.py",
+    "flash_attn_triton.py",
+    "generation_config.json",
+    "tokenizer.json",
+    "tokenizer_config.json"
+  ],
+  "weight_sha256_matched_upstream_lfs_record": true,
+  "license_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+}

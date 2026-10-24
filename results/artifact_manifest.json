@@ -1,0 +1,112 @@
+{
+  "results/reference/metrics.csv": {
+    "source": "filtered from single_seed_20261021/evaluation/analysis/metrics.csv",
+    "sha256": "fde8c70f7230fb3fb4006da331427d03f551ccab0767f060ea3c2ca5595de5f8",
+    "bytes": 194643
+  },
+  "results/reference/paired_intervals.csv": {
+    "source": "filtered from single_seed_20261021/evaluation/analysis/paired_intervals.csv",
+    "sha256": "e33e8b279fa899f99754ca6b34b5ecee43dd0fa662cd0d9826194e8d67640d5f",
+    "bytes": 4028
+  },
+  "results/reference/reliability_bins.csv": {
+    "source": "filtered from single_seed_20261021/evaluation/analysis/reliability_bins.csv",
+    "sha256": "8e4ac731ce33f1b60b370a8e8fe99a2a75dadb7e0ba78d57f27b0e6af2f6a3df",
+    "bytes": 1211732
+  },
+  "results/reference/count_coverage.csv": {
+    "source": "filtered from single_seed_20261021/evaluation/analysis/count_coverage.csv",
+    "sha256": "e48ac73470e74ab4a9c1337b20bb09aac7e35dcdc469d5e82ed10f216308e106",
+    "bytes": 31936
+  },
+  "results/reference/null_parameters.json": {
+    "source": "single_seed_20261021/evaluation/analysis/null_parameters.json",
+    "sha256": "337bb96b07751ad05d3a01ad75c9f6ccc38f61919962c139b37d07a73837528e",
+    "bytes": 724
+  },
+  "results/controls/metrics.csv": {
+    "source": "filtered from reviewer_repair_20261022/analysis/matched_results/metrics.csv",
+    "sha256": "9b074588256b1ffb1a9ebb2e3e23e0a04bdf3e9cd7192b3e16faaab1434a0a19",
+    "bytes": 45975
+  },
+  "results/controls/paired_intervals.csv": {
+    "source": "filtered from reviewer_repair_20261022/analysis/matched_results/paired_intervals.csv",
+    "sha256": "459ff7254a0d02f50100059ce304e0a14a8cb5bfb8ce242056874d026088e82e",
+    "bytes": 261250
+  },
+  "results/controls/reliability_bins.csv": {
+    "source": "filtered from reviewer_repair_20261022/analysis/matched_results/reliability_bins.csv",
+    "sha256": "f09aebabd116a2efa0dd339905ae10697aaf20c2343d3002c0e13be8a9dd33b3",
+    "bytes": 91081
+  },
+  "results/controls/training_constants.csv": {
+    "source": "reviewer_repair_20261022/analysis/matched_results/training_constants.csv",
+    "sha256": "27a10b4e2b2b445e18f7efe4c375571a3bb6f593abbdca79de409e048fa4f9ca",
+    "bytes": 361
+  },
+  "results/patterns/pattern_coverage.csv": {
+    "source": "manuscript_revision/positive_report_20261022/data/pattern_coverage.csv",
+    "sha256": "3fa5cb4c0b890453a0c555cda263aca47f06f650e731fc4f66ca474f0ffa5d6d",
+    "bytes": 2518
+  },
+  "results/patterns/pattern_paired_intervals.csv": {
+    "source": "manuscript_revision/positive_report_20261022/data/pattern_paired_intervals.csv",
+    "sha256": "7663862a987a118d95b3abb9d250c5467ff09b9260160e226c2b8c3202d6269d",
+    "bytes": 7088
+  },
+  "results/patterns/pattern_population.json": {
+    "source": "manuscript_revision/positive_report_20261022/data/pattern_population.json",
+    "sha256": "e7365eef80191c68505ffac8243e6d973f5a049eb70b9f7e03a3560deb7757fd",
+    "bytes": 898
+  },
+  "reports/positive.pdf": {
+    "source": "manuscript_revision/positive_report_20261022/positive.pdf",
+    "sha256": "d57408b3f9e303b1dcdf39cbf26caf9e23bb731cedf57aaf56ccac2602220b30",
+    "bytes": 731207
+  },
+  "figures/overview.png": {
+    "source": "manuscript_revision/positive_report_20261022/figures/Figure_1.png",
+    "sha256": "43593b45f8ca2de04fae73d7e872df080befc850616ba73129871b11928e6dc2",
+    "bytes": 373246
+  },
+  "figures/overview.description.txt": {
+    "source": "manuscript_revision/positive_report_20261022/figures/Figure_1.description.txt",
+    "sha256": "20f33ae5b7a9daf9c8edfaa2fbaedb2b98d90d694f34608c2989860f464f0577",
+    "bytes": 676
+  },
+  "figures/prediction.png": {
+    "source": "manuscript_revision/positive_report_20261022/figures/Figure_2.png",
+    "sha256": "cf50df7a049818304c5a1f0efb5d572c8341afa92094e48bb22c16f30dd5946f",
+    "bytes": 439094
+  },
+  "figures/prediction.description.txt": {
+    "source": "manuscript_revision/positive_report_20261022/figures/Figure_2.description.txt",
+    "sha256": "d6ac991eccef5193e92d8e0e408fc750037d8f5b32b0c694a4067f02cfbb1592",
+    "bytes": 560
+  },
+  "figures/patterns.png": {
+    "source": "manuscript_revision/positive_report_20261022/figures/Figure_3.png",
+    "sha256": "353af3d69442622a8ff634e0f5c51b2fd8cdb1d2379aa1f0f53dce4ca82468ea",
+    "bytes": 455189
+  },
+  "figures/patterns.description.txt": {
+    "source": "manuscript_revision/positive_report_20261022/figures/Figure_3.description.txt",
+    "sha256": "85469ff63a7e9e7236e28f04291d4772ef6ca8577f235457ac284779c638dce7",
+    "bytes": 391
+  },
+  "figures/attention.png": {
+    "source": "manuscript_revision/positive_report_20261022/figures/Figure_4.png",
+    "sha256": "96743576eea4e3c47da016e26c425359ee28d442cdcee7336a131ba4522e4608",
+    "bytes": 323000
+  },
+  "figures/attention.description.txt": {
+    "source": "manuscript_revision/positive_report_20261022/figures/Figure_4.description.txt",
+    "sha256": "baa8a15e6b7fefd963702c6a15dadb130064c77ed549108acad454dd1d45caad",
+    "bytes": 456
+  },
+  "figures/overview.svg": {
+    "source": "manuscript_revision/positive_report_20261022/figures/Figure_1.svg",
+    "sha256": "5d56ee109a161299737afc4d1fb8fd3a8d15f1112e8ad6ea6cf627eb1774cc0d",
+    "bytes": 59414
+  }
+}

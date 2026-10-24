@@ -1,0 +1,20 @@
+{
+  "tag": "v0.1.0",
+  "assets": {
+    "latebranch-window.pt": {
+      "url": "https://github.com/XiangqiWang77/latebranch-dnabert/releases/download/v0.1.0/latebranch-window.pt",
+      "bytes": 175992115,
+      "sha256": "f73de5b404a80486be62298eeddbb43f57d8e7818f9376732734d8b8978b57c0"
+    },
+    "positive.pdf": {
+      "url": "https://github.com/XiangqiWang77/latebranch-dnabert/releases/download/v0.1.0/positive.pdf",
+      "bytes": 731207,
+      "sha256": "d57408b3f9e303b1dcdf39cbf26caf9e23bb731cedf57aaf56ccac2602220b30"
+    },
+    "figures-and-tables.zip": {
+      "url": "https://github.com/XiangqiWang77/latebranch-dnabert/releases/download/v0.1.0/figures-and-tables.zip",
+      "bytes": 3262067,
+      "sha256": "6246e55f50b68a4d438edc84cf2a0f22b13192649a45fdf17a6e3df8d867d7a8"
+    }
+  }
+}

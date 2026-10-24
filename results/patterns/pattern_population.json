@@ -1,0 +1,19 @@
+{
+  "observations": 1280,
+  "unique_loci": 1213,
+  "components": 1185,
+  "test_pool": 28570,
+  "full_eligible_test": 97662,
+  "test_pool_AS_positive": 14285,
+  "selected_AS_positive": 510,
+  "raw_split_role": {
+    "train": 933,
+    "test": 248,
+    "val": 99
+  },
+  "replay": "Exact balanced test row order and 1280 selected identities, directions and depth strata reproduced from historical pure functions",
+  "training_observation_overlap": 0,
+  "training_component_overlap": 0,
+  "explanation": "split_role is inherited metadata and is not the pooled split assignment; actual split is reconstructed from 257bp component membership, seed13, and 70/10/10/10 proportions",
+  "population": "Already-inspected historical test sample drawn from a globally AS-balanced test pool and then stratified by significance/direction/depth,256 per assay; not a prevalence-representative eligible population"
+}
