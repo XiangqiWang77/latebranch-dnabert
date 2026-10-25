@@ -1,0 +1,596 @@
+[
+  {
+    "key": "window__natural_offset_lb",
+    "model": "natural_offset_lb",
+    "seed": 13,
+    "split": "window",
+    "checkpoint_sha256": "463b3655d1a5f64b03179132ccf4e2825592748fe7fb89e309f846f12c6c29da",
+    "input": {
+      "reference_bp": 257,
+      "focal_index": 128,
+      "conditioning": [
+        "assay",
+        "tissue"
+      ],
+      "chromosome_and_donor_as_covariates": false,
+      "alphabet": "ACGT",
+      "token_budget": 128,
+      "representation": "DNABERT-2 native BPE; separate left/MASK/right encoding only for neutral-terminal"
+    },
+    "loss": "float64 beta-binomial NLL, equal observation weight, fixed training-only assay dispersion",
+    "optimization": {
+      "optimizer": "AdamW",
+      "head_lr": 0.0001,
+      "backbone_lr": 1e-05,
+      "weight_decay": 0.01,
+      "batch_size": 128,
+      "max_epochs": 8,
+      "min_epochs": 3,
+      "patience": 3,
+      "min_delta": 1e-05,
+      "scheduler": "ReduceLROnPlateau factor0.5 patience2 on raw validation NLL",
+      "precision": "BF16 forward, FP64 count loss",
+      "first_epoch": "added modules only; last four backbone blocks join from epoch2",
+      "strand": "random RC during training; mean forward/RC logits for validation, calibration and test",
+      "selection": "minimum raw validation NLL; no calibration/test checkpoint selection",
+      "calibration": "independent calibration partition; assay scale in[0,3], fixed training rho; joint rho/scale is secondary only"
+    },
+    "fit": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "pilot_window_natural_offset_lb_s13",
+        "method": "natural_offset_lb",
+        "seed": 13,
+        "split": "window",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA A40",
+      "job_id": "30081525",
+      "shared_rho": [
+        0.12265756466774842,
+        0.10343021930304294,
+        0.09342541763330062,
+        0.23558623020850944,
+        0.11317700224072583
+      ],
+      "best_epoch": 3,
+      "epochs": 6,
+      "validation_nll": 2.7557213230140727,
+      "at_epoch_cap": false,
+      "training_seconds": 10370.871459288057,
+      "peak_gpu_gib": 6.483221530914307,
+      "trainable_parameters": 43991298,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "463b3655d1a5f64b03179132ccf4e2825592748fe7fb89e309f846f12c6c29da",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "architecture": {
+      "backbone": "DNABERT-2-117M, fixed revision in repository manifest",
+      "layers": 12,
+      "adapted_top_layers": 4,
+      "branch_depth": 8,
+      "reference_context": "natural REF tokens",
+      "candidate_update": "projected candidate embedding minus REF embedding",
+      "within_token_gate": true,
+      "gate_initialization": "zero gate weights; identity multiplier",
+      "readout": "terminal assay/tissue FiLM, 8-head focal-query attention, shared scalar potential; ALT minus REF",
+      "dropout": 0
+    }
+  },
+  {
+    "key": "window__neutral_terminal",
+    "model": "neutral_terminal",
+    "seed": 13,
+    "split": "window",
+    "checkpoint_sha256": "e6b6d2208972a778013cd7b44fd39b9df8939d41e066f6f88d62459027253f24",
+    "input": {
+      "reference_bp": 257,
+      "focal_index": 128,
+      "conditioning": [
+        "assay",
+        "tissue"
+      ],
+      "chromosome_and_donor_as_covariates": false,
+      "alphabet": "ACGT",
+      "token_budget": 128,
+      "representation": "DNABERT-2 native BPE; separate left/MASK/right encoding only for neutral-terminal"
+    },
+    "loss": "float64 beta-binomial NLL, equal observation weight, fixed training-only assay dispersion",
+    "optimization": {
+      "optimizer": "AdamW",
+      "head_lr": 0.0001,
+      "backbone_lr": 1e-05,
+      "weight_decay": 0.01,
+      "batch_size": 128,
+      "max_epochs": 8,
+      "min_epochs": 3,
+      "patience": 3,
+      "min_delta": 1e-05,
+      "scheduler": "ReduceLROnPlateau factor0.5 patience2 on raw validation NLL",
+      "precision": "BF16 forward, FP64 count loss",
+      "first_epoch": "added modules only; last four backbone blocks join from epoch2",
+      "strand": "random RC during training; mean forward/RC logits for validation, calibration and test",
+      "selection": "minimum raw validation NLL; no calibration/test checkpoint selection",
+      "calibration": "independent calibration partition; assay scale in[0,3], fixed training rho; joint rho/scale is secondary only"
+    },
+    "fit": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "pilot_window_neutral_terminal_s13",
+        "method": "neutral_terminal",
+        "seed": 13,
+        "split": "window",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA A40",
+      "job_id": "30081524",
+      "shared_rho": [
+        0.12265756466774842,
+        0.10343021930304294,
+        0.09342541763330062,
+        0.23558623020850944,
+        0.11317700224072583
+      ],
+      "best_epoch": 2,
+      "epochs": 5,
+      "validation_nll": 2.758564846693652,
+      "at_epoch_cap": false,
+      "training_seconds": 4685.720085039735,
+      "peak_gpu_gib": 2.7945899963378906,
+      "trainable_parameters": 43988226,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "e6b6d2208972a778013cd7b44fd39b9df8939d41e066f6f88d62459027253f24",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "architecture": {
+      "backbone": "DNABERT-2-117M, fixed revision in repository manifest",
+      "layers": 12,
+      "adapted_top_layers": 4,
+      "branch_depth": 12,
+      "reference_context": "center MASK with separately tokenized flanks",
+      "candidate_update": "projected base embedding minus four-base mean",
+      "within_token_gate": false,
+      "gate_initialization": "zero gate weights; identity multiplier",
+      "readout": "terminal assay/tissue FiLM, 8-head focal-query attention, shared scalar potential; ALT minus REF",
+      "dropout": 0
+    }
+  },
+  {
+    "key": "window__vanilla",
+    "model": "vanilla",
+    "seed": 13,
+    "split": "window",
+    "checkpoint_sha256": "27a85289e9fc7f8e0651a84ef4d1cb3bf3bf65e67679f4aee60cd77f830ef4f8",
+    "input": {
+      "reference_bp": 257,
+      "focal_index": 128,
+      "conditioning": [
+        "assay",
+        "tissue"
+      ],
+      "chromosome_and_donor_as_covariates": false,
+      "alphabet": "ACGT",
+      "token_budget": 128,
+      "representation": "DNABERT-2 native BPE; separate left/MASK/right encoding only for neutral-terminal"
+    },
+    "loss": "float64 beta-binomial NLL, equal observation weight, fixed training-only assay dispersion",
+    "optimization": {
+      "optimizer": "AdamW",
+      "head_lr": 0.0001,
+      "backbone_lr": 1e-05,
+      "weight_decay": 0.01,
+      "batch_size": 128,
+      "max_epochs": 8,
+      "min_epochs": 3,
+      "patience": 3,
+      "min_delta": 1e-05,
+      "scheduler": "ReduceLROnPlateau factor0.5 patience2 on raw validation NLL",
+      "precision": "BF16 forward, FP64 count loss",
+      "first_epoch": "added modules only; last four backbone blocks join from epoch2",
+      "strand": "random RC during training; mean forward/RC logits for validation, calibration and test",
+      "selection": "minimum raw validation NLL; no calibration/test checkpoint selection",
+      "calibration": "independent calibration partition; assay scale in[0,3], fixed training rho; joint rho/scale is secondary only"
+    },
+    "fit": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "pilot_window_vanilla_s13",
+        "method": "vanilla",
+        "seed": 13,
+        "split": "window",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA L40S",
+      "job_id": "30091097",
+      "shared_rho": [
+        0.12265756466774842,
+        0.10343021930304294,
+        0.09342541763330062,
+        0.23558623020850944,
+        0.11317700224072583
+      ],
+      "best_epoch": 4,
+      "epochs": 7,
+      "validation_nll": 2.766238505699374,
+      "at_epoch_cap": false,
+      "training_seconds": 7898.698674090672,
+      "peak_gpu_gib": 3.4903364181518555,
+      "trainable_parameters": 44868353,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "27a85289e9fc7f8e0651a84ef4d1cb3bf3bf65e67679f4aee60cd77f830ef4f8",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "architecture": {
+      "backbone": "DNABERT-2-117M, two separate natural allele passes",
+      "layers": 12,
+      "adapted_top_layers": 4,
+      "dropout": 0,
+      "readout": "mean pooling concatenated with assay/tissue context; shared MLP scalar difference"
+    }
+  },
+  {
+    "key": "chromosome__natural_offset_lb",
+    "model": "natural_offset_lb",
+    "seed": 13,
+    "split": "chromosome",
+    "checkpoint_sha256": "4378737f043e2d9dd528424f9ddec26dde784b3a0e67c6f88ba7c0e307b3e86b",
+    "input": {
+      "reference_bp": 257,
+      "focal_index": 128,
+      "conditioning": [
+        "assay",
+        "tissue"
+      ],
+      "chromosome_and_donor_as_covariates": false,
+      "alphabet": "ACGT",
+      "token_budget": 128,
+      "representation": "DNABERT-2 native BPE; separate left/MASK/right encoding only for neutral-terminal"
+    },
+    "loss": "float64 beta-binomial NLL, equal observation weight, fixed training-only assay dispersion",
+    "optimization": {
+      "optimizer": "AdamW",
+      "head_lr": 0.0001,
+      "backbone_lr": 1e-05,
+      "weight_decay": 0.01,
+      "batch_size": 128,
+      "max_epochs": 8,
+      "min_epochs": 3,
+      "patience": 3,
+      "min_delta": 1e-05,
+      "scheduler": "ReduceLROnPlateau factor0.5 patience2 on raw validation NLL",
+      "precision": "BF16 forward, FP64 count loss",
+      "first_epoch": "added modules only; last four backbone blocks join from epoch2",
+      "strand": "random RC during training; mean forward/RC logits for validation, calibration and test",
+      "selection": "minimum raw validation NLL; no calibration/test checkpoint selection",
+      "calibration": "independent calibration partition; assay scale in[0,3], fixed training rho; joint rho/scale is secondary only"
+    },
+    "fit": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "replication_chromosome_natural_offset_lb_s13",
+        "method": "natural_offset_lb",
+        "seed": 13,
+        "split": "chromosome",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA A40",
+      "job_id": "30172987",
+      "shared_rho": [
+        0.17734849991276735,
+        0.15621946933246253,
+        0.13595250069188536,
+        0.3188742373224783,
+        0.16639336463678853
+      ],
+      "best_epoch": 3,
+      "epochs": 6,
+      "validation_nll": 2.7320194202718966,
+      "at_epoch_cap": false,
+      "training_seconds": 9016.129054515157,
+      "peak_gpu_gib": 6.481070041656494,
+      "trainable_parameters": 43991298,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "4378737f043e2d9dd528424f9ddec26dde784b3a0e67c6f88ba7c0e307b3e86b",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "architecture": {
+      "backbone": "DNABERT-2-117M, fixed revision in repository manifest",
+      "layers": 12,
+      "adapted_top_layers": 4,
+      "branch_depth": 8,
+      "reference_context": "natural REF tokens",
+      "candidate_update": "projected candidate embedding minus REF embedding",
+      "within_token_gate": true,
+      "gate_initialization": "zero gate weights; identity multiplier",
+      "readout": "terminal assay/tissue FiLM, 8-head focal-query attention, shared scalar potential; ALT minus REF",
+      "dropout": 0
+    }
+  },
+  {
+    "key": "chromosome__neutral_terminal",
+    "model": "neutral_terminal",
+    "seed": 13,
+    "split": "chromosome",
+    "checkpoint_sha256": "b1dd328945d65bb1fc060134824477e8028527c59c50b78c7f939a8c31da2302",
+    "input": {
+      "reference_bp": 257,
+      "focal_index": 128,
+      "conditioning": [
+        "assay",
+        "tissue"
+      ],
+      "chromosome_and_donor_as_covariates": false,
+      "alphabet": "ACGT",
+      "token_budget": 128,
+      "representation": "DNABERT-2 native BPE; separate left/MASK/right encoding only for neutral-terminal"
+    },
+    "loss": "float64 beta-binomial NLL, equal observation weight, fixed training-only assay dispersion",
+    "optimization": {
+      "optimizer": "AdamW",
+      "head_lr": 0.0001,
+      "backbone_lr": 1e-05,
+      "weight_decay": 0.01,
+      "batch_size": 128,
+      "max_epochs": 8,
+      "min_epochs": 3,
+      "patience": 3,
+      "min_delta": 1e-05,
+      "scheduler": "ReduceLROnPlateau factor0.5 patience2 on raw validation NLL",
+      "precision": "BF16 forward, FP64 count loss",
+      "first_epoch": "added modules only; last four backbone blocks join from epoch2",
+      "strand": "random RC during training; mean forward/RC logits for validation, calibration and test",
+      "selection": "minimum raw validation NLL; no calibration/test checkpoint selection",
+      "calibration": "independent calibration partition; assay scale in[0,3], fixed training rho; joint rho/scale is secondary only"
+    },
+    "fit": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "replication_chromosome_neutral_terminal_s13",
+        "method": "neutral_terminal",
+        "seed": 13,
+        "split": "chromosome",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA L40S",
+      "job_id": "30173398",
+      "shared_rho": [
+        0.17734849991276735,
+        0.15621946933246253,
+        0.13595250069188536,
+        0.3188742373224783,
+        0.16639336463678853
+      ],
+      "best_epoch": 2,
+      "epochs": 5,
+      "validation_nll": 2.722224706764136,
+      "at_epoch_cap": false,
+      "training_seconds": 3132.9154549259692,
+      "peak_gpu_gib": 2.794858932495117,
+      "trainable_parameters": 43988226,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "b1dd328945d65bb1fc060134824477e8028527c59c50b78c7f939a8c31da2302",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "architecture": {
+      "backbone": "DNABERT-2-117M, fixed revision in repository manifest",
+      "layers": 12,
+      "adapted_top_layers": 4,
+      "branch_depth": 12,
+      "reference_context": "center MASK with separately tokenized flanks",
+      "candidate_update": "projected base embedding minus four-base mean",
+      "within_token_gate": false,
+      "gate_initialization": "zero gate weights; identity multiplier",
+      "readout": "terminal assay/tissue FiLM, 8-head focal-query attention, shared scalar potential; ALT minus REF",
+      "dropout": 0
+    }
+  },
+  {
+    "key": "chromosome__vanilla",
+    "model": "vanilla",
+    "seed": 13,
+    "split": "chromosome",
+    "checkpoint_sha256": "98446de5bd3cc789cca1ebabee762ae5042f0790b2c2879e42fa7ec437f54115",
+    "input": {
+      "reference_bp": 257,
+      "focal_index": 128,
+      "conditioning": [
+        "assay",
+        "tissue"
+      ],
+      "chromosome_and_donor_as_covariates": false,
+      "alphabet": "ACGT",
+      "token_budget": 128,
+      "representation": "DNABERT-2 native BPE; separate left/MASK/right encoding only for neutral-terminal"
+    },
+    "loss": "float64 beta-binomial NLL, equal observation weight, fixed training-only assay dispersion",
+    "optimization": {
+      "optimizer": "AdamW",
+      "head_lr": 0.0001,
+      "backbone_lr": 1e-05,
+      "weight_decay": 0.01,
+      "batch_size": 128,
+      "max_epochs": 8,
+      "min_epochs": 3,
+      "patience": 3,
+      "min_delta": 1e-05,
+      "scheduler": "ReduceLROnPlateau factor0.5 patience2 on raw validation NLL",
+      "precision": "BF16 forward, FP64 count loss",
+      "first_epoch": "added modules only; last four backbone blocks join from epoch2",
+      "strand": "random RC during training; mean forward/RC logits for validation, calibration and test",
+      "selection": "minimum raw validation NLL; no calibration/test checkpoint selection",
+      "calibration": "independent calibration partition; assay scale in[0,3], fixed training rho; joint rho/scale is secondary only"
+    },
+    "fit": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "replication_chromosome_vanilla_s13",
+        "method": "vanilla",
+        "seed": 13,
+        "split": "chromosome",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA L40S",
+      "job_id": "30173399",
+      "shared_rho": [
+        0.17734849991276735,
+        0.15621946933246253,
+        0.13595250069188536,
+        0.3188742373224783,
+        0.16639336463678853
+      ],
+      "best_epoch": 2,
+      "epochs": 5,
+      "validation_nll": 2.7290466483862077,
+      "at_epoch_cap": false,
+      "training_seconds": 4862.831671483349,
+      "peak_gpu_gib": 3.4860758781433105,
+      "trainable_parameters": 44868353,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "98446de5bd3cc789cca1ebabee762ae5042f0790b2c2879e42fa7ec437f54115",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "architecture": {
+      "backbone": "DNABERT-2-117M, two separate natural allele passes",
+      "layers": 12,
+      "adapted_top_layers": 4,
+      "dropout": 0,
+      "readout": "mean pooling concatenated with assay/tissue context; shared MLP scalar difference"
+    }
+  },
+  {
+    "key": "window__vanilla_attention",
+    "model": "vanilla_attention",
+    "seed": 13,
+    "split": "window",
+    "checkpoint_sha256": "91c1a210f368b515c1291d90877c25abf60b2f7d6756d37eed3a42e8a5d1f416",
+    "input": {
+      "reference_bp": 257,
+      "focal_index": 128,
+      "conditioning": [
+        "assay",
+        "tissue"
+      ],
+      "chromosome_and_donor_as_covariates": false,
+      "alphabet": "ACGT",
+      "token_budget": 128,
+      "representation": "DNABERT-2 native BPE; separate left/MASK/right encoding only for neutral-terminal"
+    },
+    "loss": "float64 beta-binomial NLL, equal observation weight, fixed training-only assay dispersion",
+    "optimization": {
+      "optimizer": "AdamW",
+      "head_lr": 0.0001,
+      "backbone_lr": 1e-05,
+      "weight_decay": 0.01,
+      "batch_size": 128,
+      "max_epochs": 8,
+      "min_epochs": 3,
+      "patience": 3,
+      "min_delta": 1e-05,
+      "scheduler": "ReduceLROnPlateau factor0.5 patience2 on raw validation NLL",
+      "precision": "BF16 forward, FP64 count loss",
+      "first_epoch": "added modules only; last four backbone blocks join from epoch2",
+      "strand": "random RC during training; mean forward/RC logits for validation, calibration and test",
+      "selection": "minimum raw validation NLL; no calibration/test checkpoint selection",
+      "calibration": "independent calibration partition; assay scale in[0,3], fixed training rho; joint rho/scale is secondary only"
+    },
+    "fit": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "reviewer_window_vanilla_attention_s13",
+        "method": "vanilla_attention",
+        "seed": 13,
+        "split": "window",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA A40",
+      "job_id": "30309411",
+      "shared_rho": [
+        0.12265756466774842,
+        0.10343021930304294,
+        0.09342541763330062,
+        0.23558623020850944,
+        0.11317700224072583
+      ],
+      "best_epoch": 3,
+      "epochs": 6,
+      "validation_nll": 2.7636903054962128,
+      "at_epoch_cap": false,
+      "training_seconds": 9598.975403664168,
+      "peak_gpu_gib": 3.558645725250244,
+      "trainable_parameters": 43395329,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "91c1a210f368b515c1291d90877c25abf60b2f7d6756d37eed3a42e8a5d1f416",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "architecture": {
+      "backbone": "DNABERT-2-117M, two separate natural allele passes",
+      "layers": 12,
+      "adapted_top_layers": 4,
+      "dropout": 0,
+      "readout": "same terminal FiLM, focal-query attention and shared scalar head as LateBranch; natural REF/ALT tokenization"
+    }
+  }
+]

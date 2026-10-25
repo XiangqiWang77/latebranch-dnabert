@@ -1,0 +1,1121 @@
+model,split,method,batch_size,alternatives,scope,repeat,seconds,gpu,precision,both_strands,peak_allocated_bytes,baseline_allocated_bytes,incremental_peak_bytes
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,0,0.011587583541870117,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,1,0.011571200370788574,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,2,0.011482111930847168,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,3,0.011544608116149902,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,4,0.01154736042022705,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,5,0.011598848342895507,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,6,0.011530303955078125,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,7,0.011523839950561523,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,8,0.011515968322753907,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,9,0.011558976173400879,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,10,0.01152716827392578,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,11,0.01150444793701172,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,12,0.011555839538574218,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,13,0.011450464248657227,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,14,0.011495327949523926,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,15,0.011511743545532227,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,16,0.011511967658996583,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,17,0.011548607826232911,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,18,0.011586560249328613,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,GPU forward,19,0.01160524845123291,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,0,0.013374761212617159,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,1,0.013381619937717915,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,2,0.013503289315849543,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,3,0.014588465914130211,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,4,0.01494859205558896,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,5,0.014728149864822626,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,6,0.013596253003925085,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,7,0.014299645088613033,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,8,0.01378632104024291,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,9,0.01463228091597557,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,10,0.014186420943588018,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,11,0.01372611802071333,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,12,0.013440327253192663,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,13,0.013350711204111576,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,14,0.013340716250240803,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,15,0.013345835730433464,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,16,0.013333345297724009,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,17,0.013315678108483553,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,18,0.013279903214424849,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,1,End to end,19,0.013398392125964165,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,0,0.01162332820892334,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,1,0.011564736366271972,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,2,0.01153446388244629,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,3,0.011466943740844726,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,4,0.011552736282348633,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,5,0.011617280006408692,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,6,0.011539456367492675,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,7,0.01162649631500244,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,8,0.011536383628845214,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,9,0.011538784027099609,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,10,0.011541536331176758,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,11,0.01158687973022461,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,12,0.011558112144470214,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,13,0.011571104049682618,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,14,0.011548640251159668,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,15,0.011565183639526367,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,16,0.011607040405273437,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,17,0.011628607749938964,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,18,0.01157427215576172,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,GPU forward,19,0.011484288215637206,NVIDIA L40S,FP32,True,521722368,515830272,5892096
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,0,0.013360817916691303,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,1,0.013395369052886963,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,2,0.013436474837362766,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,3,0.01341592101380229,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,4,0.013351480010896921,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,5,0.01332941697910428,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,6,0.013293135911226273,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,7,0.013373367954045534,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,8,0.013392260298132896,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,9,0.013343227561563253,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,10,0.013357238844037056,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,11,0.013395090121775866,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,12,0.013376917224377394,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,13,0.013358225114643574,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,14,0.013346482068300247,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,15,0.013390225823968649,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,16,0.013310511130839586,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,17,0.013299320824444294,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,18,0.013408656232059002,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,1,3,End to end,19,0.01335975294932723,NVIDIA L40S,FP32,True,521722368,515804672,5917696
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,0,0.041133056640625,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,1,0.04203724670410156,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,2,0.04247347259521484,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,3,0.04258486557006836,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,4,0.042466304779052735,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,5,0.04235059356689453,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,6,0.04218236923217773,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,7,0.04124979019165039,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,8,0.040946945190429684,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,9,0.04075929641723633,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,10,0.040817665100097655,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,11,0.040890369415283206,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,12,0.04118527984619141,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,13,0.0410880012512207,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,14,0.041923583984375,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,15,0.04143996810913086,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,16,0.042237953186035154,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,17,0.04128768157958984,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,18,0.04118412780761719,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,GPU forward,19,0.04102656173706055,NVIDIA L40S,FP32,True,675497984,515923968,159574016
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,0,0.05227987701073289,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,1,0.05287136370316148,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,2,0.052419852931052446,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,3,0.05244848504662514,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,4,0.05310240015387535,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,5,0.052594448905438185,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,6,0.05272496026009321,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,7,0.053727924823760986,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,8,0.05228344909846783,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,9,0.05280002811923623,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,10,0.053012183867394924,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,11,0.052165084052830935,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,12,0.05281904060393572,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,13,0.05258828215301037,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,14,0.05243734596297145,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,15,0.05302390782162547,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,16,0.05248247738927603,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,17,0.05256295995786786,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,18,0.05300978384912014,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,1,End to end,19,0.05234347516670823,NVIDIA L40S,FP32,True,675497984,515804672,159693312
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,0,0.04199116897583008,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,1,0.04148121643066406,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,2,0.04117510223388672,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,3,0.04213043212890625,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,4,0.04147494506835937,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,5,0.04150067138671875,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,6,0.042188800811767575,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,7,0.04144416046142578,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,8,0.04123136138916016,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,9,0.04189286422729492,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,10,0.04193382263183594,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,11,0.0413941764831543,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,12,0.041457664489746096,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,13,0.04267414474487305,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,14,0.04272864151000977,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,15,0.04238848114013672,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,16,0.042355712890625,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,17,0.04226047897338867,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,18,0.041509632110595704,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,GPU forward,19,0.04117679977416992,NVIDIA L40S,FP32,True,675499008,515924992,159574016
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,0,0.05318196211010218,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,1,0.05249593826010823,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,2,0.05285364994779229,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,3,0.05292691895738244,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,4,0.0527637368068099,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,5,0.052986003924161196,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,6,0.052370691671967506,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,7,0.05257662571966648,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,8,0.05319201806560159,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,9,0.05243763513863087,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,10,0.05282160313799977,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,11,0.053220612928271294,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,12,0.05247023981064558,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,13,0.052914208732545376,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,14,0.05275802221149206,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,15,0.05245139682665467,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,16,0.05289052799344063,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,17,0.05256952717900276,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,18,0.05262610921636224,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+window__neutral_terminal,window,neutral_terminal,32,3,End to end,19,0.05334532214328647,NVIDIA L40S,FP32,True,675499008,515804672,159694336
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,0,0.010740511894226075,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,1,0.010690560340881347,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,2,0.010771360397338867,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,3,0.010727456092834473,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,4,0.01084601593017578,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,5,0.01074176025390625,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,6,0.010817728042602538,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,7,0.010795904159545898,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,8,0.010852352142333984,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,9,0.010832192420959473,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,10,0.010785792350769043,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,11,0.010857184410095215,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,12,0.010846336364746094,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,13,0.010750880241394043,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,14,0.010810336112976075,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,15,0.010793824195861817,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,16,0.010804960250854492,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,17,0.010714112281799316,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,18,0.010777600288391113,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,GPU forward,19,0.01074345588684082,NVIDIA L40S,FP32,True,527978496,519856128,8122368
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,0,0.01224969606846571,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,1,0.012190692126750946,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,2,0.012266741134226322,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,3,0.012245874386280775,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,4,0.01219478016719222,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,5,0.012238973751664162,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,6,0.01225262088701129,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,7,0.012186612002551556,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,8,0.012181445956230164,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,9,0.012195745017379522,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,10,0.012180835008621216,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,11,0.012248854152858257,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,12,0.012198003008961678,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,13,0.012221826240420341,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,14,0.01221319567412138,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,15,0.012152459938079119,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,16,0.012182489968836308,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,17,0.012117353267967701,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,18,0.01210986077785492,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,1,End to end,19,0.012173003051429987,NVIDIA L40S,FP32,True,527978496,519848960,8129536
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,0,0.010842207908630372,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,1,0.010896063804626465,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,2,0.010858495712280274,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,3,0.010821824073791503,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,4,0.01093609619140625,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,5,0.01092080020904541,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,6,0.010951616287231446,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,7,0.010899423599243164,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,8,0.010859328269958496,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,9,0.010889216423034668,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,10,0.010833056449890136,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,11,0.01086787223815918,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,12,0.010784832000732422,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,13,0.01083683204650879,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,14,0.01072640037536621,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,15,0.01084928035736084,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,16,0.010860320091247558,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,17,0.010826623916625977,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,18,0.010760191917419434,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,GPU forward,19,0.010867584228515624,NVIDIA L40S,FP32,True,534424064,519860224,14563840
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,0,0.01278640003874898,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,1,0.012699796352535486,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,2,0.012766447849571705,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,3,0.012769897002726793,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,4,0.012789459899067879,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,5,0.012718426994979382,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,6,0.012741419021040201,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,7,0.01265148026868701,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,8,0.012598050758242607,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,9,0.012675873003900051,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,10,0.012666204012930393,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,11,0.012639452237635851,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,12,0.012651187367737293,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,13,0.012690425850450993,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,14,0.012693725991994143,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,15,0.012662697117775679,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,16,0.012718713376671076,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,17,0.012692141812294722,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,18,0.01272581797093153,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,1,3,End to end,19,0.012679275125265121,NVIDIA L40S,FP32,True,534424064,519848960,14575104
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,0,0.06577356719970703,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,1,0.06604390716552734,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,2,0.06600192260742188,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,3,0.06626713562011718,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,4,0.06604390716552734,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,5,0.06633062744140625,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,6,0.06636831665039063,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,7,0.06628447723388672,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,8,0.06611353302001953,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,9,0.06604297637939453,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,10,0.06644940948486328,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,11,0.06603878021240234,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,12,0.06634598541259766,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,13,0.0666283187866211,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,14,0.06662364959716797,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,15,0.06650777435302735,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,16,0.06650675201416016,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,17,0.06637641906738281,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,18,0.06620262145996093,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,GPU forward,19,0.06623638153076172,NVIDIA L40S,FP32,True,732412416,519974912,212437504
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,0,0.08432533359155059,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,1,0.08446381008252501,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,2,0.08468052791431546,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,3,0.08473366498947144,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,4,0.08461928414180875,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,5,0.0843979911878705,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,6,0.08470552135258913,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,7,0.08486511930823326,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,8,0.08460242813453078,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,9,0.08433634927496314,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,10,0.08461765013635159,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,11,0.08502684207633138,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,12,0.08469738066196442,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,13,0.08425438543781638,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,14,0.08441864466294646,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,15,0.0847875950857997,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,16,0.08469952922314405,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,17,0.08449983969330788,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,18,0.08440682385116816,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,1,End to end,19,0.084744893014431,NVIDIA L40S,FP32,True,732439552,519848960,212590592
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,0,0.13306265258789063,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,1,0.13226588439941406,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,2,0.13281074523925782,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,3,0.13220538330078124,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,4,0.13230079650878906,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,5,0.13261209106445312,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,6,0.13296127319335938,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,7,0.13201919555664063,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,8,0.13308621215820313,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,9,0.13277389526367187,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,10,0.13221376037597657,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,11,0.13282505798339844,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,12,0.13264691162109374,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,13,0.13293670654296874,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,14,0.13262847900390626,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,15,0.1325465545654297,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,16,0.1330708465576172,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,17,0.13330738830566408,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,18,0.13225030517578126,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,GPU forward,19,0.13241343688964843,NVIDIA L40S,FP32,True,944724992,520102912,424622080
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,0,0.16898546507582068,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,1,0.16901359800249338,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,2,0.16902303276583552,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,3,0.16850773291662335,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,4,0.16862985026091337,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,5,0.16843385994434357,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,6,0.16852399799972773,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,7,0.16893263394013047,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,8,0.16904907207936049,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,9,0.16900174133479595,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,10,0.16870878683403134,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,11,0.1687688729725778,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,12,0.16933446284383535,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,13,0.16830378212034702,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,14,0.1684659463353455,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,15,0.168477276340127,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,16,0.16900284960865974,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,17,0.16884899185970426,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,18,0.16933868220075965,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+chromosome__vanilla,chromosome,vanilla,32,3,End to end,19,0.16873261705040932,NVIDIA L40S,FP32,True,944468992,519848960,424620032
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,0,0.011433919906616212,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,1,0.01135308837890625,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,2,0.011327808380126952,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,3,0.011345184326171875,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,4,0.011291647911071777,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,5,0.011363327980041504,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,6,0.011319071769714355,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,7,0.011311103820800781,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,8,0.011321344375610352,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,9,0.011357184410095214,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,10,0.011416576385498046,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,11,0.01135308837890625,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,12,0.011408479690551757,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,13,0.011395071983337402,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,14,0.011283712387084961,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,15,0.011320320129394532,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,16,0.011400192260742188,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,17,0.011300064086914063,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,18,0.011334752082824707,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,GPU forward,19,0.011388959884643555,NVIDIA L40S,FP32,True,521856000,513445888,8410112
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,0,0.012776222079992294,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,1,0.012784136459231377,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,2,0.012732711154967546,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,3,0.012776504270732403,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,4,0.012820968870073557,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,5,0.012786429841071367,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,6,0.012763048056513071,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,7,0.0126950410194695,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,8,0.01275287102907896,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,9,0.01270228112116456,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,10,0.012822317890822887,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,11,0.01274425769224763,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,12,0.012719168793410063,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,13,0.012668029870837927,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,14,0.012749659828841686,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,15,0.012744267005473375,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,16,0.012715271208435297,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,17,0.012660017237067223,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,18,0.012675751931965351,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,1,End to end,19,0.012722746934741735,NVIDIA L40S,FP32,True,521856000,513432576,8423424
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,0,0.011430912017822266,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,1,0.011296768188476563,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,2,0.011250687599182128,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,3,0.011279040336608887,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,4,0.01126195240020752,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,5,0.011280351638793946,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,6,0.011301888465881347,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,7,0.011231231689453124,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,8,0.011209792137145996,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,9,0.011234272003173828,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,10,0.0112958402633667,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,11,0.011232416152954101,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,12,0.011251711845397949,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,13,0.01126841640472412,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,14,0.011298111915588379,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,15,0.011281536102294923,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,16,0.011228927612304688,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,17,0.011193344116210938,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,18,0.011310239791870118,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,GPU forward,19,0.011194368362426758,NVIDIA L40S,FP32,True,528249856,513452032,14797824
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,0,0.013337939977645874,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,1,0.013379366137087345,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,2,0.013405624777078629,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,3,0.013383666053414345,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,4,0.01332612382248044,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,5,0.013399927876889706,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,6,0.013405222911387682,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,7,0.01337777590379119,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,8,0.013417696114629507,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,9,0.013392427004873753,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,10,0.013328764121979475,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,11,0.01338904770091176,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,12,0.013441723305732012,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,13,0.013354822061955929,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,14,0.013309975154697895,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,15,0.013379963114857674,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,16,0.013390765991061926,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,17,0.013409347273409367,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,18,0.013409528881311417,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,1,3,End to end,19,0.013327333144843578,NVIDIA L40S,FP32,True,528249856,513432576,14817280
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,0,0.06781542205810547,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,1,0.06762470245361328,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,2,0.06738502502441407,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,3,0.06776195526123047,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,4,0.06749161529541016,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,5,0.06761856079101562,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,6,0.06771405029296874,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,7,0.0674813461303711,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,8,0.06740172576904296,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,9,0.06756147003173828,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,10,0.06736895751953124,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,11,0.06777881622314454,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,12,0.06780006408691407,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,13,0.06792806243896485,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,14,0.06756041717529297,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,15,0.06745366668701172,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,16,0.06776640319824219,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,17,0.06771405029296874,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,18,0.06775820922851562,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,GPU forward,19,0.06773043060302734,NVIDIA L40S,FP32,True,731915776,513627136,218288640
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,0,0.08644916955381632,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,1,0.08628983702510595,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,2,0.08634074777364731,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,3,0.08647684287279844,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,4,0.08621018193662167,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,5,0.08635270316153765,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,6,0.08652571914717555,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,7,0.08631703676655889,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,8,0.0863574231043458,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,9,0.08668761793524027,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,10,0.08630751399323344,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,11,0.08700049994513392,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,12,0.08673352794721723,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,13,0.08617491973564029,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,14,0.08631761418655515,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,15,0.08660127269104123,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,16,0.08626623405143619,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,17,0.08614870999008417,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,18,0.086597949732095,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,1,End to end,19,0.08635734720155597,NVIDIA L40S,FP32,True,731915776,513432576,218483200
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,0,0.13747190856933594,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,1,0.138140869140625,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,2,0.1381263427734375,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,3,0.13786508178710938,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,4,0.13816423034667968,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,5,0.13766860961914062,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,6,0.13763072204589843,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,7,0.13866265869140626,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,8,0.1381099548339844,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,9,0.1373818817138672,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,10,0.13763052368164064,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,11,0.138387451171875,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,12,0.13810176086425782,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,13,0.13762345886230468,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,14,0.13862879943847656,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,15,0.1380095977783203,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,16,0.13801161193847655,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,17,0.13843965148925783,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,18,0.1377176055908203,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,GPU forward,19,0.1378065948486328,NVIDIA L40S,FP32,True,948728320,513820672,434907648
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,0,0.17443113215267658,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,1,0.1744097350165248,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,2,0.17440448608249426,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,3,0.17449609097093344,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,4,0.17476352583616972,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,5,0.17413249285891652,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,6,0.1741943322122097,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,7,0.17482554400339723,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,8,0.1749379951506853,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,9,0.1742197358980775,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,10,0.1744192810729146,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,11,0.17443885235115886,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,12,0.17500545782968402,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,13,0.17398032639175653,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,14,0.17502468498423696,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,15,0.17468926310539246,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,16,0.17435100581496954,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,17,0.17436904599890113,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,18,0.17494745505973697,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla_attention,window,vanilla_attention,32,3,End to end,19,0.1746133049018681,NVIDIA L40S,FP32,True,949514752,513432576,436082176
+window__vanilla,window,vanilla,1,1,GPU forward,0,0.010895648002624513,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,1,0.01087104034423828,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,2,0.010863615989685058,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,3,0.010711935997009278,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,4,0.010757023811340333,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,5,0.010704895973205567,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,6,0.010854399681091309,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,7,0.010848544120788573,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,8,0.010668191909790039,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,9,0.010771455764770508,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,10,0.010790911674499512,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,11,0.010769311904907226,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,12,0.010772192001342773,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,13,0.010738783836364747,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,14,0.010789631843566894,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,15,0.010913503646850587,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,16,0.010757023811340333,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,17,0.01078489589691162,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,18,0.010800127983093261,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,GPU forward,19,0.010793984413146973,NVIDIA L40S,FP32,True,528135168,519856128,8279040
+window__vanilla,window,vanilla,1,1,End to end,0,0.012193012051284313,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,1,0.012187032029032707,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,2,0.012092151679098606,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,3,0.012212751898914576,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,4,0.012111717835068703,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,5,0.012156699784100056,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,6,0.012154885102063417,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,7,0.012110926676541567,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,8,0.01205879682675004,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,9,0.01220179395750165,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,10,0.012229775078594685,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,11,0.012104406952857971,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,12,0.01195681607350707,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,13,0.012194478884339333,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,14,0.012105665169656277,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,15,0.012173560913652182,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,16,0.012127364054322243,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,17,0.012098071165382862,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,18,0.012099585961550474,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,1,End to end,19,0.012087090872228146,NVIDIA L40S,FP32,True,528135168,519848960,8286208
+window__vanilla,window,vanilla,1,3,GPU forward,0,0.010896384239196777,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,1,0.01087007999420166,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,2,0.01083084774017334,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,3,0.010744768142700195,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,4,0.010858495712280274,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,5,0.01073151969909668,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,6,0.010721280097961425,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,7,0.010769408226013183,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,8,0.01071343994140625,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,9,0.010641216278076172,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,10,0.01072640037536621,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,11,0.010657535552978516,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,12,0.010707967758178711,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,13,0.01073971176147461,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,14,0.010823583602905274,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,15,0.010785471916198731,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,16,0.0107542724609375,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,17,0.010762240409851074,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,18,0.01073151969909668,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,GPU forward,19,0.010670080184936523,NVIDIA L40S,FP32,True,534658048,519860224,14797824
+window__vanilla,window,vanilla,1,3,End to end,0,0.012807358056306839,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,1,0.012843027245253325,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,2,0.012729884125292301,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,3,0.012742417864501476,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,4,0.012796208262443542,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,5,0.012753492221236229,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,6,0.012800693977624178,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,7,0.012807277962565422,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,8,0.01273693609982729,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,9,0.012695853598415852,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,10,0.012774805072695017,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,11,0.012763659004122019,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,12,0.012752524577081203,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,13,0.012751257047057152,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,14,0.012795923743396997,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,15,0.01280504697933793,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,16,0.012815620750188828,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,17,0.012803273275494576,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,18,0.012812189757823944,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,1,3,End to end,19,0.012825028970837593,NVIDIA L40S,FP32,True,534658048,519848960,14809088
+window__vanilla,window,vanilla,32,1,GPU forward,0,0.06684569549560547,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,1,0.06674198150634765,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,2,0.0667914276123047,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,3,0.06672589111328125,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,4,0.06670722961425782,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,5,0.06652700805664062,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,6,0.06643609619140625,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,7,0.0664942398071289,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,8,0.06666006469726563,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,9,0.06677606201171875,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,10,0.06672895812988282,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,11,0.06655782318115235,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,12,0.06673101043701171,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,13,0.06681702423095703,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,14,0.0666427230834961,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,15,0.06660582733154297,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,16,0.06664498901367187,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,17,0.06675138854980468,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,18,0.06667366027832031,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,GPU forward,19,0.0668253402709961,NVIDIA L40S,FP32,True,738265600,519976960,218288640
+window__vanilla,window,vanilla,32,1,End to end,0,0.08521098317578435,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,1,0.08498126780614257,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,2,0.08519867388531566,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,3,0.08485004492104053,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,4,0.08517012279480696,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,5,0.08517219172790647,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,6,0.0850563202984631,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,7,0.0850014598108828,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,8,0.08508550236001611,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,9,0.08498205104842782,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,10,0.08493996411561966,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,11,0.08494654716923833,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,12,0.08523192070424557,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,13,0.0852578179910779,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,14,0.0848256847821176,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,15,0.08494135877117515,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,16,0.08516244823113084,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,17,0.08507822500541806,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,18,0.08485604589805007,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,1,End to end,19,0.08495544316247106,NVIDIA L40S,FP32,True,738265600,519848960,218416640
+window__vanilla,window,vanilla,32,3,GPU forward,0,0.13714419555664062,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,1,0.13723638916015626,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,2,0.13671218872070312,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,3,0.13723744201660157,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,4,0.13634970092773438,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,5,0.13753138732910156,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,6,0.1370088348388672,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,7,0.13864857482910156,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,8,0.13876710510253906,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,9,0.13746176147460937,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,10,0.13707264709472655,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,11,0.1393950653076172,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,12,0.14068531799316406,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,13,0.13806166076660156,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,14,0.1371279296875,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,15,0.13681765747070312,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,16,0.13658726501464843,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,17,0.13643161010742189,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,18,0.13740953063964845,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,GPU forward,19,0.13780377197265625,NVIDIA L40S,FP32,True,955012608,520104960,434907648
+window__vanilla,window,vanilla,32,3,End to end,0,0.17310954397544265,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,1,0.17365460423752666,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,2,0.1731291259638965,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,3,0.17357500409707427,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,4,0.1733535942621529,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,5,0.17322871601209044,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,6,0.17332762898877263,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,7,0.1738539319485426,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,8,0.17253123316913843,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,9,0.17318892525509,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,10,0.17348438082262874,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,11,0.17301073437556624,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,12,0.1730926833115518,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,13,0.17327505629509687,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,14,0.17308399686589837,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,15,0.17350016068667173,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,16,0.173433355987072,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,17,0.17337456811219454,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,18,0.1732648187316954,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+window__vanilla,window,vanilla,32,3,End to end,19,0.17334952391684055,NVIDIA L40S,FP32,True,955799040,519848960,435950080
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,0,0.011509759902954102,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,1,0.011443072319030762,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,2,0.011521023750305176,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,3,0.011478015899658203,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,4,0.011487327575683593,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,5,0.011564288139343262,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,6,0.011548895835876465,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,7,0.011510751724243163,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,8,0.01143616008758545,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,9,0.011406496047973632,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,10,0.011500576019287109,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,11,0.011470015525817872,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,12,0.011632896423339844,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,13,0.011676447868347168,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,14,0.011591679573059082,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,15,0.011546688079833984,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,16,0.011563743591308594,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,17,0.011523839950561523,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,18,0.011510911941528321,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,GPU forward,19,0.011513952255249024,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,0,0.013278593309223652,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,1,0.013322093058377504,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,2,0.013278806116431952,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,3,0.013271203264594078,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,4,0.013310195878148079,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,5,0.013368962798267603,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,6,0.013316115364432335,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,7,0.01328570069745183,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,8,0.01328143896535039,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,9,0.013284746091812849,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,10,0.013229161035269499,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,11,0.013340703677386045,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,12,0.01330391876399517,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,13,0.013330498244613409,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,14,0.01326289912685752,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,15,0.013258775696158409,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,16,0.013293844647705555,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,17,0.013251862954348326,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,18,0.013206867035478354,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,1,End to end,19,0.013295559212565422,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,0,0.011593728065490723,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,1,0.011461695671081544,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,2,0.01152012825012207,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,3,0.011484160423278808,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,4,0.011567104339599609,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,5,0.01151692771911621,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,6,0.011514880180358887,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,7,0.011559647560119629,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,8,0.011473119735717774,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,9,0.011575296401977539,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,10,0.011505663871765137,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,11,0.011447456359863281,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,12,0.011476160049438477,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,13,0.011544575691223144,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,14,0.011471776008605957,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,15,0.011565055847167969,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,16,0.011679903984069824,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,17,0.011552096366882324,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,18,0.011555839538574218,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,GPU forward,19,0.011534336090087891,NVIDIA L40S,FP32,True,521695232,515830272,5864960
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,0,0.013389722909778357,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,1,0.013372034765779972,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,2,0.013355331029742956,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,3,0.013282489962875843,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,4,0.013342906255275011,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,5,0.013359800912439823,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,6,0.01337858708575368,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,7,0.013332909904420376,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,8,0.013362362049520016,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,9,0.01323523698374629,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,10,0.01331266202032566,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,11,0.013321210164576769,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,12,0.0132848946377635,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,13,0.013307144865393639,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,14,0.013303305022418499,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,15,0.013326904736459255,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,16,0.013345017097890377,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,17,0.013288893736898899,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,18,0.01336614415049553,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,1,3,End to end,19,0.01331631327047944,NVIDIA L40S,FP32,True,521695232,515804672,5890560
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,0,0.040029983520507816,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,1,0.040008705139160154,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,2,0.03999334335327148,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,3,0.040068096160888675,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,4,0.0401069450378418,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,5,0.0400720329284668,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,6,0.04010086441040039,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,7,0.04007535934448242,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,8,0.04010287857055664,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,9,0.040081409454345705,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,10,0.040097793579101565,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,11,0.040040416717529295,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,12,0.040010753631591796,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,13,0.04004137420654297,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,14,0.0401798095703125,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,15,0.03997081756591797,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,16,0.04000956726074219,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,17,0.04005068969726563,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,18,0.04006195068359375,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,GPU forward,19,0.04004278564453125,NVIDIA L40S,FP32,True,671954944,515922432,156032512
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,0,0.051907503977417946,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,1,0.05185461090877652,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,2,0.05208591092377901,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,3,0.05098842503502965,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,4,0.05140760587528348,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,5,0.05140524823218584,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,6,0.05140740191563964,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,7,0.05156189389526844,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,8,0.051123691722750664,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,9,0.051573791075497866,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,10,0.051070572808384895,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,11,0.05141868023201823,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,12,0.05130704678595066,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,13,0.05148768797516823,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,14,0.051606003660708666,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,15,0.05115243513137102,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,16,0.05147650092840195,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,17,0.051076616160571575,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,18,0.05140008497983217,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,1,End to end,19,0.05124208237975836,NVIDIA L40S,FP32,True,671954944,515804672,156150272
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,0,0.04025139236450195,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,1,0.040275966644287106,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,2,0.04033126449584961,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,3,0.04018172836303711,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,4,0.040288257598876956,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,5,0.04039168167114258,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,6,0.04021350479125976,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,7,0.040268478393554685,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,8,0.040289279937744144,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,9,0.04026572799682617,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,10,0.0401899528503418,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,11,0.04027801513671875,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,12,0.04028518295288086,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,13,0.0402215690612793,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,14,0.04017868804931641,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,15,0.04028108978271484,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,16,0.040217601776123046,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,17,0.04020940780639649,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,18,0.04009983825683594,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,GPU forward,19,0.0400843505859375,NVIDIA L40S,FP32,True,671956480,515923456,156033024
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,0,0.051500767935067415,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,1,0.05130372382700443,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,2,0.05119335185736418,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,3,0.051549725234508514,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,4,0.05110165476799011,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,5,0.051646867766976357,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,6,0.05099732195958495,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,7,0.051406607031822205,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,8,0.05142521997913718,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,9,0.051281971856951714,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,10,0.05174954188987613,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,11,0.051093155052512884,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,12,0.05158928129822016,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,13,0.05121884401887655,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,14,0.05139619531109929,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,15,0.05146248312667012,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,16,0.05133812362328172,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,17,0.05163146834820509,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,18,0.05113385105505586,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+chromosome__neutral_terminal,chromosome,neutral_terminal,32,3,End to end,19,0.05146268615499139,NVIDIA L40S,FP32,True,671956480,515804672,156151808
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,0,0.012800224304199219,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,1,0.012799008369445801,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,2,0.012719136238098144,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,3,0.012729408264160157,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,4,0.012648639678955078,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,5,0.01272316837310791,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,6,0.012731391906738282,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,7,0.01273151969909668,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,8,0.012684543609619141,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,9,0.012724224090576173,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,10,0.012672160148620605,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,11,0.01267199993133545,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,12,0.012654399871826172,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,13,0.012710911750793457,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,14,0.01264038372039795,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,15,0.012681023597717285,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,16,0.012631327629089355,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,17,0.012678144454956054,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,18,0.012699487686157227,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,GPU forward,19,0.012786687850952149,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,0,0.01440987503156066,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,1,0.014461139217019081,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,2,0.014488257002085447,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,3,0.014315056148916483,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,4,0.014419137965887785,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,5,0.014403017237782478,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,6,0.014410365838557482,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,7,0.014464986976236105,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,8,0.014427819289267063,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,9,0.014409448020160198,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,10,0.014484035782516003,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,11,0.014445031993091106,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,12,0.014397489838302135,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,13,0.014395912177860737,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,14,0.01437779376283288,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,15,0.014344870112836361,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,16,0.014402857981622219,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,17,0.01443280279636383,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,18,0.01442771777510643,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,1,End to end,19,0.014406967908143997,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,0,0.01276518440246582,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,1,0.012677120208740235,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,2,0.01269372844696045,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,3,0.012708864212036132,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,4,0.012750880241394043,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,5,0.012695391654968262,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,6,0.012785663604736328,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,7,0.012684288024902344,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,8,0.012704959869384766,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,9,0.01273423957824707,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,10,0.012679167747497559,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,11,0.012685664176940918,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,12,0.012677120208740235,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,13,0.012685312271118163,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,14,0.012685312271118163,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,15,0.01267404842376709,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,16,0.01276416015625,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,17,0.012710911750793457,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,18,0.012721887588500977,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,GPU forward,19,0.012804384231567384,NVIDIA L40S,FP32,True,530217984,515842560,14375424
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,0,0.01489323889836669,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,1,0.015486941207200289,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,2,0.015375492163002491,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,3,0.01552673988044262,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,4,0.015018372796475887,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,5,0.014812011737376451,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,6,0.014636659063398838,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,7,0.014586365781724453,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,8,0.014647852629423141,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,9,0.014488350134342909,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,10,0.014570424798876047,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,11,0.014625180047005415,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,12,0.014509615954011679,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,13,0.014459531288594007,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,14,0.014444492291659117,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,15,0.014393645338714123,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,16,0.014430463779717684,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,17,0.014460670296102762,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,18,0.014498559292405844,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,1,3,End to end,19,0.014491304755210876,NVIDIA L40S,FP32,True,530217984,515816960,14401024
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,0,0.07387929534912109,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,1,0.07302349090576171,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,2,0.07399219512939453,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,3,0.07317196655273438,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,4,0.07348735809326172,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,5,0.07418572998046875,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,6,0.07359270477294921,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,7,0.0729354248046875,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,8,0.07382527923583984,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,9,0.07400569915771485,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,10,0.0731719970703125,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,11,0.07326924896240235,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,12,0.07339190673828125,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,13,0.07318732452392578,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,14,0.07388451385498047,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,15,0.07355084991455078,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,16,0.07321577453613282,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,17,0.07401165008544922,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,18,0.07347711944580078,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,GPU forward,19,0.07357718658447265,NVIDIA L40S,FP32,True,957791232,515933184,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,0,0.08368303114548326,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,1,0.08437749464064837,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,2,0.0841829739511013,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,3,0.08368425909429789,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,4,0.0832912907935679,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,5,0.08361627720296383,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,6,0.08399156900122762,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,7,0.08412058930844069,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,8,0.08387859305366874,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,9,0.0835129776969552,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,10,0.08365901000797749,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,11,0.08398699015378952,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,12,0.08444996597245336,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,13,0.08388429088518023,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,14,0.08382199611514807,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,15,0.08368586469441652,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,16,0.08393901912495494,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,17,0.08407908817753196,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,18,0.08382994728162885,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,1,End to end,19,0.08358923718333244,NVIDIA L40S,FP32,True,957791232,515816960,441974272
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,0,0.07402393341064453,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,1,0.07418061065673828,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,2,0.07441305541992188,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,3,0.07355084991455078,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,4,0.07328562927246093,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,5,0.07441299438476562,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,6,0.07403008270263672,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,7,0.07360201263427735,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,8,0.07342591857910157,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,9,0.07342387390136719,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,10,0.07357209777832031,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,11,0.0740157470703125,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,12,0.07302553558349609,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,13,0.0739583969116211,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,14,0.07351910400390625,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,15,0.07327027130126954,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,16,0.07392256164550781,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,17,0.07360409545898437,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,18,0.07331021118164062,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,GPU forward,19,0.07338188934326172,NVIDIA L40S,FP32,True,957792256,515934208,441858048
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,0,0.08380958717316389,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,1,0.08390098810195923,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,2,0.08350291382521391,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,3,0.08359875017777085,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,4,0.08422884391620755,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,5,0.08431246783584356,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,6,0.08384934486821294,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,7,0.08336678985506296,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,8,0.08358778711408377,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,9,0.08401163900271058,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,10,0.083886309992522,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,11,0.0838209236972034,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,12,0.08341955533251166,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,13,0.08348269341513515,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,14,0.08393100136891007,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,15,0.08401483064517379,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,16,0.08399127004668117,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,17,0.0834741941653192,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,18,0.08364105876535177,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+window__natural_offset_lb,window,natural_offset_lb,32,3,End to end,19,0.08363466989248991,NVIDIA L40S,FP32,True,957792256,515816960,441975296
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,0,0.012864383697509765,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,1,0.012732416152954102,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,2,0.012725407600402833,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,3,0.01271020793914795,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,4,0.012687359809875488,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,5,0.012765088081359864,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,6,0.012739583969116211,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,7,0.012749567985534668,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,8,0.01270582389831543,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,9,0.012739744186401367,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,10,0.012710687637329101,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,11,0.012693375587463378,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,12,0.012690431594848632,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,13,0.012720128059387208,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,14,0.012759039878845215,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,15,0.012733440399169921,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,16,0.012734463691711426,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,17,0.012785504341125489,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,18,0.01266476821899414,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,GPU forward,19,0.012724448204040527,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,0,0.01443904684856534,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,1,0.014396070968359709,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,2,0.014450136106461287,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,3,0.014517980627715588,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,4,0.014434820972383022,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,5,0.01446558116003871,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,6,0.014485704246908426,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,7,0.01441413164138794,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,8,0.014472513925284147,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,9,0.014489351771771908,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,10,0.014410391915589571,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,11,0.014552616979926825,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,12,0.01448117010295391,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,13,0.014445683918893337,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,14,0.014463646337389946,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,15,0.01441112207248807,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,16,0.014524722006171942,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,17,0.014547803439199924,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,18,0.014517538249492645,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,1,End to end,19,0.014498178847134113,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,0,0.012844096183776856,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,1,0.012700736045837402,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,2,0.012727583885192871,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,3,0.012644351959228516,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,4,0.012678144454956054,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,5,0.01272755241394043,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,6,0.012835840225219726,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,7,0.012734496116638183,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,8,0.012824671745300293,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,9,0.012762911796569824,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,10,0.012670047760009765,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,11,0.012715999603271484,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,12,0.012698623657226562,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,13,0.012708864212036132,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,14,0.012681216239929198,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,15,0.012722175598144531,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,16,0.012719903945922852,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,17,0.012735487937927246,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,18,0.012739583969116211,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,GPU forward,19,0.01275699234008789,NVIDIA L40S,FP32,True,529722368,515842560,13879808
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,0,0.014345941133797169,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,1,0.014466423075646162,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,2,0.014466800261288881,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,3,0.01439513685181737,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,4,0.014468151144683361,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,5,0.01442725583910942,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,6,0.014387964736670256,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,7,0.014402586035430431,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,8,0.014390294905751944,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,9,0.014436726924031973,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,10,0.014450208749622107,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,11,0.014376199338585138,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,12,0.01444639079272747,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,13,0.014390347059816122,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,14,0.014447664842009544,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,15,0.014433848671615124,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,16,0.014462902210652828,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,17,0.014430392067879438,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,18,0.014368969015777111,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,1,3,End to end,19,0.014376611914485693,NVIDIA L40S,FP32,True,529722368,515816960,13905408
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,0,0.07211007690429687,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,1,0.07242646026611328,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,2,0.07216844940185548,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,3,0.07228543853759765,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,4,0.07186739349365234,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,5,0.07192678070068359,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,6,0.07184690856933594,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,7,0.07243059539794922,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,8,0.07279411315917969,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,9,0.07302041625976563,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,10,0.07269171142578125,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,11,0.07267533111572265,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,12,0.07232511901855469,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,13,0.07174626922607422,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,14,0.07250227355957031,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,15,0.07203942108154297,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,16,0.07227385711669922,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,17,0.07206166076660156,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,18,0.07261798095703124,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,GPU forward,19,0.07180057525634766,NVIDIA L40S,FP32,True,945204224,515931648,429272576
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,0,0.08212324418127537,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,1,0.08234539069235325,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,2,0.08252241974696517,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,3,0.08238575700670481,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,4,0.08224601484835148,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,5,0.08228368125855923,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,6,0.08251654217019677,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,7,0.08267784118652344,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,8,0.08234391221776605,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,9,0.08226515492424369,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,10,0.0822121761739254,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,11,0.08221835503354669,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,12,0.08209702139720321,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,13,0.08236989844590425,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,14,0.08235142892226577,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,15,0.08278445666655898,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,16,0.0826113997027278,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,17,0.08236916223540902,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,18,0.08226825203746557,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,1,End to end,19,0.08237363630905747,NVIDIA L40S,FP32,True,945204224,515816960,429387264
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,0,0.07278182220458984,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,1,0.07272038269042969,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,2,0.07304601287841797,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,3,0.07256985473632813,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,4,0.07267533111572265,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,5,0.07251455688476563,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,6,0.07243366241455078,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,7,0.07228518676757813,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,8,0.07224217224121093,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,9,0.07295795440673829,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,10,0.07251558685302735,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,11,0.07272140502929687,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,12,0.07327101135253906,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,13,0.07275212860107422,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,14,0.07252684783935547,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,15,0.07239049530029297,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,16,0.07265254211425781,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,17,0.0732047348022461,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,18,0.07265280151367187,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,GPU forward,19,0.07245721435546874,NVIDIA L40S,FP32,True,945205760,515932672,429273088
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,0,0.08228153642266989,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,1,0.08270171284675598,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,2,0.08276193402707577,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,3,0.08272175583988428,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,4,0.08235487714409828,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,5,0.08212208794429898,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,6,0.08201574021950364,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,7,0.0820359131321311,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,8,0.08205660991370678,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,9,0.0823085461743176,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,10,0.08206202508881688,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,11,0.08243598137050867,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,12,0.08249513385817409,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,13,0.08241749880835414,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,14,0.08211065363138914,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,15,0.08207286708056927,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,16,0.08204099396243691,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,17,0.08215750008821487,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,18,0.08223665179684758,NVIDIA L40S,FP32,True,945205760,515816960,429388800
+chromosome__natural_offset_lb,chromosome,natural_offset_lb,32,3,End to end,19,0.08243581280112267,NVIDIA L40S,FP32,True,945205760,515816960,429388800

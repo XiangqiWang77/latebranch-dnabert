@@ -1,25 +1,29 @@
 # LateBranch-DNABERT
 
-**An explicit allele interface for DNABERT-2: shared reference context, localized candidate interventions, and count-supervised log-ratio prediction.**
+**Shared reference encoding and localized allele interventions for allelic log-ratio prediction.**
 
-LateBranch encodes a natural reference sequence once, introduces A/C/G/T candidate updates at the variant's BPE token, and processes those candidates through shared upper layers. An assay/tissue-conditioned attention readout produces relative potentials. Their ALT-minus-REF difference predicts a signed allelic log ratio and an ALT fraction.
+LateBranch adapts DNABERT-2 to predict assay- and tissue-specific allelic imbalance from DNA sequence. It encodes a natural reference window once, introduces A/C/G/T candidate updates at the variant's token, and propagates those candidates through shared upper layers. An attention readout assigns candidate potentials; the ALT-minus-REF difference predicts the log allelic ratio and ALT fraction.
 
-<img src="figures/overview.png" alt="LateBranch's count-supervised target, shared-reference candidate paths, within-token position encoding and observed token geometry" width="900">
+<img src="figures/overview.png" alt="LateBranch architecture: shared reference encoding, localized candidate updates, within-token position features and an allele-specific attention readout" width="900">
 
-## Start here
+[Method](docs/method.md) · [Input format](docs/data.md) · [Reproduction](docs/reproduction.md) · [Results](results/README.md) · [Figures](figures/README.md)
 
-- [Method and design](docs/method.md): why token pretraining needs an allelic prediction interface, and how the intervention is encoded.
-- [Input format](docs/data.md): centered REF windows, allele identities, conditions and optional counts.
-- [Positive report](reports/positive.pdf): six pages answering the three scientific questions, with four figures and four tables; snapshot dated October 22, 2026.
-- [Complete result tables](results/README.md): raw/calibrated metrics and paired intervals, including the subsequently completed controls.
-- [Figure gallery](figures/README.md): design, predictive results, sequence logos and pattern–attention alignment.
-- [Releases](https://github.com/XiangqiWang77/latebranch-dnabert/releases): trained checkpoint, figure/table downloads and report source with compact evidence.
+## Results against Vanilla DNABERT
 
-This repository contains the maintained model interface and selected research outputs. Installation and prediction do not depend on our cluster directories or scheduler.
+The reference comparison uses a supervised two-pass DNABERT-2 model with a mean-pool readout. The table reports calibrated count NLL on the full test partitions for the fixed seed-13 fits; lower is better.
+
+| Test split | Observations | Vanilla | LateBranch |
+|---|---:|---:|---:|
+| Window | 97,662 | 2.771044 | 2.765614 |
+| Chromosome 19–22 | 249,984 | 2.720008 | 2.717552 |
+
+For batch-32 queries with three ALT alleles per window, LateBranch takes **83.82 ms** versus **173.30 ms** for Vanilla, a **2.07× speedup**. Both models reuse REF computation, and timing includes sequence encoding, transfer and forward/reverse-complement prediction on the same hardware and precision. This speed ratio describes the specified multi-ALT workload.
+
+[Complete results](results/README.md) include raw and calibrated metrics, paired uncertainty intervals, all comparator models, other query workloads and memory measurements. Sequence-pattern figures identify their model and cohort in the [figure captions](figures/README.md).
 
 ## Installation
 
-Use Python 3.10. The package pins the DNABERT-compatible Transformers/tokenizer versions; the [tested environment](docs/tested_environment.json) records the exact validation environment.
+Use Python 3.10 and a PyTorch installation suitable for your CPU or CUDA environment. The package pins the DNABERT-compatible Transformers and tokenizer versions.
 
 ```bash
 git clone https://github.com/XiangqiWang77/latebranch-dnabert.git
@@ -29,11 +33,9 @@ source .venv/bin/activate
 python -m pip install -e .
 ```
 
-PyTorch must match your CPU/CUDA installation; see its [official installation instructions](https://pytorch.org/get-started/locally/). CPU inference is supported. Training a full DNABERT model is intended for a suitable GPU.
-
 ## Download and predict
 
-The backbone is the official DNABERT-2 checkpoint at a **fixed revision**. Its code, tokenizer, configuration and weight digests are checked before loading. The LateBranch release contains the adapted weights; the frozen backbone is downloaded separately.
+Download the pinned DNABERT-2 backbone and the trained LateBranch weights:
 
 ```bash
 latebranch download-backbone --output models/dnabert2
@@ -48,21 +50,20 @@ latebranch predict \
   --device cpu
 ```
 
-The example contains **synthetic DNA queries**, including the identity REF=ALT control. It demonstrates the interface, not biological performance. [Expected outputs](examples/expected_predictions.csv) are included for this checkpoint. Small floating-point differences across hardware are normal.
+The example contains synthetic DNA queries, including a REF=ALT identity control. [Expected predictions](examples/expected_predictions.csv) are provided. Use `--device cuda` for GPU inference.
 
 | Output | Meaning |
 |---|---|
-| `tau_forward`, `tau_reverse` | Logits from the two strand views |
-| `tau_raw` | Their arithmetic mean, before assay calibration |
-| `tau` | Calibrated log ALT/REF; equals `tau_raw` when no calibration file is supplied |
-| `p_alt` | `sigmoid(tau)` |
-| `rho` | Training-fitted assay dispersion used by the count likelihood |
+| `tau_raw` | Mean forward and reverse-complement logit |
+| `tau` | Calibrated log ALT/REF; equals `tau_raw` without calibration |
+| `p_alt` | Predicted ALT fraction, `sigmoid(tau)` |
+| `rho` | Training-fitted assay dispersion for the count likelihood |
 
-Assays and tissues must belong to the [released checkpoint vocabulary](configs/released_model.json). The model uses assay and tissue conditions; chromosome and donor identifiers are not inputs to its prediction.
+Input assay and tissue labels must match the [checkpoint vocabulary](configs/released_model.json). See the [input specification](docs/data.md) for sequence, allele and count fields.
 
-## Train on your data
+## Train and evaluate
 
-Supply explicit `train` and `validation` partitions and dependence-group identifiers. The CLI checks that a group or identical reference window does not cross partitions. It does not invent splits or evaluate test rows during fitting.
+Provide explicit train/validation partitions and dependence-group identifiers:
 
 ```bash
 latebranch check-data --input data/observations.csv.gz --training
@@ -74,28 +75,12 @@ latebranch train \
   --device cuda
 ```
 
-Default settings follow the count-only protocol: seed 13, one epoch adapting added modules, then adaptation of the last four backbone blocks, validation NLL checkpoint selection, and a maximum of eight epochs. Training-only assay dispersions are fitted unless supplied explicitly. Set `model_type` to `vanilla` for the two-pass mean-pool reference; `branch_layer` and `position_aware` expose LateBranch's injection choices. These are model options, not a declaration of an optimal depth.
+Default training uses count likelihood, one epoch adapting the added modules, then adaptation of the last four backbone blocks, with validation NLL checkpoint selection. Set `model_type` to `vanilla` for the two-pass reference. [Reproduction instructions](docs/reproduction.md) cover training settings, separate calibration and held-out evaluation.
 
-See [training, calibration and evaluation](docs/reproduction.md) for the complete workflow. Pretraining itself is not repeated.
+The [study data and checkpoints](studies/acceptance_20261025/README.md) provide real sequence/count inputs, fixed partitions and a portable replay command for the released models. Run the lightweight CPU checks with `python -m unittest discover -s tests -v`.
 
-## Evidence and interpretation
+## Citation and attribution
 
-The report distinguishes three claims: a task-specific mapping from sequence representations to allelic counts; a concrete intervention-inspired architecture; and measured predictive/pattern endpoints. The reported improvements are conditional on a fitted seed and evaluation protocol. Sequence-pattern and attention figures use a separately identified historical model; they are not evidence that the new position gate improves prediction.
+LateBranch builds on [DNABERT-2](https://arxiv.org/abs/2306.15006) and uses the [EN-TEx resource](https://doi.org/10.1016/j.cell.2023.02.018). Intervention-based interpretation motivates the candidate-state interface; see [Geiger et al.](https://papers.nips.cc/paper/2021/hash/4f5c422f4d49a5a807eda27434231040-Abstract.html).
 
-| Material | Location |
-|---|---|
-| Core model and vanilla reference | [`latebranch/`](latebranch/) |
-| Downloading and study-data conversion | [`scripts/`](scripts/) |
-| Training settings and released model vocabulary | [`configs/`](configs/) |
-| Small synthetic examples | [`examples/`](examples/) |
-| Protocols, parity checks and dependency provenance | [`docs/`](docs/) |
-| Complete compact result tables | [`results/`](results/) |
-| Report and figure previews | [`reports/`](reports/), [`figures/`](figures/) |
-
-Run the small CPU tests with `python -m unittest discover -s tests -v`. They require no model download. The released checkpoint also passes a separate comparison against the original implementation and saved predictions; see [checkpoint parity](docs/checkpoint_parity.json). The [installed CLI check](docs/package_validation.json) and [public-download verification](docs/release_verification.json) record the release checks.
-
-## Attribution
-
-LateBranch builds on [DNABERT-2](https://arxiv.org/abs/2306.15006) and uses the [EN-TEx resource](https://doi.org/10.1016/j.cell.2023.02.018) in its reported study. Intervention-based interpretation provides the design motivation; see [Geiger et al.](https://papers.nips.cc/paper/2021/hash/4f5c422f4d49a5a807eda27434231040-Abstract.html). A repository citation is provided in [CITATION.cff](CITATION.cff); no accepted-paper venue or paper DOI is implied.
-
-The downloaded DNABERT-2 assets retain their Apache-2.0 license. [Third-party notices](THIRD_PARTY_NOTICES.md) identify the dependency and figure-workflow attribution. A project-wide open-source license for the original LateBranch code has not been specified by the authors.
+See [CITATION.cff](CITATION.cff) for the software citation and [third-party notices](THIRD_PARTY_NOTICES.md) for dependency attribution. The downloaded DNABERT-2 assets retain their Apache-2.0 license; a project-wide license for the original LateBranch code has not been specified.

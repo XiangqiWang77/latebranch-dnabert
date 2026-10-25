@@ -1,0 +1,17 @@
+{
+  "processed-study-inputs.zip": {
+    "bytes": 55488656,
+    "sha256": "a69d1021893177b38927a609cc17e6b05ed30c3190f076990c6942855f0a76f4",
+    "url": "https://github.com/XiangqiWang77/latebranch-dnabert/releases/download/v0.2.0/processed-study-inputs.zip"
+  },
+  "retained-window-comparators.zip": {
+    "bytes": 740307700,
+    "sha256": "164ff8ad8017e673ade84e2bc5cc3a2c953a1683635e0ced8843e779799d69fe",
+    "url": "https://github.com/XiangqiWang77/latebranch-dnabert/releases/download/v0.2.0/retained-window-comparators.zip"
+  },
+  "retained-chromosome-comparators.zip": {
+    "bytes": 583880139,
+    "sha256": "c73bf992898dcdd75e6b52679fec655f1f2b6034a70efe796c5bacfbdaa85ee1",
+    "url": "https://github.com/XiangqiWang77/latebranch-dnabert/releases/download/v0.2.0/retained-chromosome-comparators.zip"
+  }
+}

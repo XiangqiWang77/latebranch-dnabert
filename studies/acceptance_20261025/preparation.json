@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "registry_models": 13,
+  "processed_rows": 971819,
+  "real_sequence_windows": 416632,
+  "paired_selected_rows_per_split": 160,
+  "selection_independent_of_model_predictions": true,
+  "selection_seed": 20261025,
+  "registry_sha256": "7f5cae9669e75991ec95aa2cea94fa25fd4e106ee0326fec8fe039da990a0bb2",
+  "processed_zip_sha256": "a69d1021893177b38927a609cc17e6b05ed30c3190f076990c6942855f0a76f4",
+  "selection_sha256": {
+    "window": "6cbc26f8c9a73aa0844f18c08d9c305f4064b30188c1d0613842f7e74fe3e250",
+    "chromosome": "193f211f05a326c6110c3c0f528886985931f384e9b644a7b0c9164494878b54"
+  }
+}

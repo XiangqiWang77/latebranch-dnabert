@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "models": 7,
+  "rows_per_model": 4,
+  "phase": "test",
+  "real_processed_inputs": true,
+  "checks": [
+    {
+      "passed": true,
+      "model": "window__natural_offset_lb",
+      "phase": "test",
+      "rows": 4,
+      "max_absolute_error": 8.866190910339355e-07,
+      "checkpoint_sha256": "463b3655d1a5f64b03179132ccf4e2825592748fe7fb89e309f846f12c6c29da"
+    },
+    {
+      "passed": true,
+      "model": "window__neutral_terminal",
+      "phase": "test",
+      "rows": 4,
+      "max_absolute_error": 4.336237907409668e-06,
+      "checkpoint_sha256": "e6b6d2208972a778013cd7b44fd39b9df8939d41e066f6f88d62459027253f24"
+    },
+    {
+      "passed": true,
+      "model": "window__vanilla",
+      "phase": "test",
+      "rows": 4,
+      "max_absolute_error": 1.5795230865478516e-05,
+      "checkpoint_sha256": "27a85289e9fc7f8e0651a84ef4d1cb3bf3bf65e67679f4aee60cd77f830ef4f8"
+    },
+    {
+      "passed": true,
+      "model": "chromosome__natural_offset_lb",
+      "phase": "test",
+      "rows": 4,
+      "max_absolute_error": 1.30385160446167e-06,
+      "checkpoint_sha256": "4378737f043e2d9dd528424f9ddec26dde784b3a0e67c6f88ba7c0e307b3e86b"
+    },
+    {
+      "passed": true,
+      "model": "chromosome__neutral_terminal",
+      "phase": "test",
+      "rows": 4,
+      "max_absolute_error": 5.736947059631348e-07,
+      "checkpoint_sha256": "b1dd328945d65bb1fc060134824477e8028527c59c50b78c7f939a8c31da2302"
+    },
+    {
+      "passed": true,
+      "model": "chromosome__vanilla",
+      "phase": "test",
+      "rows": 4,
+      "max_absolute_error": 8.58306884765625e-06,
+      "checkpoint_sha256": "98446de5bd3cc789cca1ebabee762ae5042f0790b2c2879e42fa7ec437f54115"
+    },
+    {
+      "passed": true,
+      "model": "window__vanilla_attention",
+      "phase": "test",
+      "rows": 4,
+      "max_absolute_error": 3.2186508178710938e-06,
+      "checkpoint_sha256": "91c1a210f368b515c1291d90877c25abf60b2f7d6756d37eed3a42e8a5d1f416"
+    }
+  ],
+  "scope": "Retained model checks from the original reconstruction audit."
+}

@@ -1,0 +1,57 @@
+split,batch_size,alternatives,scope,model,dominated_by,pareto_nondominated
+chromosome,1,1,End to end,chromosome__natural_offset_lb,chromosome__neutral_terminal,False
+chromosome,1,1,End to end,chromosome__neutral_terminal,,True
+chromosome,1,1,End to end,chromosome__vanilla,,True
+chromosome,1,1,GPU forward,chromosome__natural_offset_lb,chromosome__neutral_terminal,False
+chromosome,1,1,GPU forward,chromosome__neutral_terminal,,True
+chromosome,1,1,GPU forward,chromosome__vanilla,,True
+chromosome,1,3,End to end,chromosome__natural_offset_lb,chromosome__neutral_terminal,False
+chromosome,1,3,End to end,chromosome__neutral_terminal,,True
+chromosome,1,3,End to end,chromosome__vanilla,,True
+chromosome,1,3,GPU forward,chromosome__natural_offset_lb,chromosome__neutral_terminal,False
+chromosome,1,3,GPU forward,chromosome__neutral_terminal,,True
+chromosome,1,3,GPU forward,chromosome__vanilla,,True
+chromosome,32,1,End to end,chromosome__natural_offset_lb,chromosome__neutral_terminal,False
+chromosome,32,1,End to end,chromosome__neutral_terminal,,True
+chromosome,32,1,End to end,chromosome__vanilla,chromosome__neutral_terminal,False
+chromosome,32,1,GPU forward,chromosome__natural_offset_lb,chromosome__neutral_terminal,False
+chromosome,32,1,GPU forward,chromosome__neutral_terminal,,True
+chromosome,32,1,GPU forward,chromosome__vanilla,chromosome__neutral_terminal,False
+chromosome,32,3,End to end,chromosome__natural_offset_lb,chromosome__neutral_terminal,False
+chromosome,32,3,End to end,chromosome__neutral_terminal,,True
+chromosome,32,3,End to end,chromosome__vanilla,chromosome__neutral_terminal,False
+chromosome,32,3,GPU forward,chromosome__natural_offset_lb,chromosome__neutral_terminal,False
+chromosome,32,3,GPU forward,chromosome__neutral_terminal,,True
+chromosome,32,3,GPU forward,chromosome__vanilla,chromosome__neutral_terminal,False
+window,1,1,End to end,window__natural_offset_lb,,True
+window,1,1,End to end,window__neutral_terminal,,True
+window,1,1,End to end,window__vanilla,,True
+window,1,1,End to end,window__vanilla_attention,,True
+window,1,1,GPU forward,window__natural_offset_lb,,True
+window,1,1,GPU forward,window__neutral_terminal,,True
+window,1,1,GPU forward,window__vanilla,,True
+window,1,1,GPU forward,window__vanilla_attention,,True
+window,1,3,End to end,window__natural_offset_lb,,True
+window,1,3,End to end,window__neutral_terminal,,True
+window,1,3,End to end,window__vanilla,,True
+window,1,3,End to end,window__vanilla_attention,,True
+window,1,3,GPU forward,window__natural_offset_lb,,True
+window,1,3,GPU forward,window__neutral_terminal,,True
+window,1,3,GPU forward,window__vanilla,,True
+window,1,3,GPU forward,window__vanilla_attention,,True
+window,32,1,End to end,window__natural_offset_lb,,True
+window,32,1,End to end,window__neutral_terminal,,True
+window,32,1,End to end,window__vanilla,,True
+window,32,1,End to end,window__vanilla_attention,,True
+window,32,1,GPU forward,window__natural_offset_lb,,True
+window,32,1,GPU forward,window__neutral_terminal,,True
+window,32,1,GPU forward,window__vanilla,,True
+window,32,1,GPU forward,window__vanilla_attention,,True
+window,32,3,End to end,window__natural_offset_lb,,True
+window,32,3,End to end,window__neutral_terminal,,True
+window,32,3,End to end,window__vanilla,,True
+window,32,3,End to end,window__vanilla_attention,,True
+window,32,3,GPU forward,window__natural_offset_lb,,True
+window,32,3,GPU forward,window__neutral_terminal,,True
+window,32,3,GPU forward,window__vanilla,,True
+window,32,3,GPU forward,window__vanilla_attention,,True

@@ -1,0 +1,4 @@
+method,seed,nll,source
+natural_offset_lb,13,2.765614105017681,frozen seed13
+vanilla_attention,13,2.7728320611570147,frozen seed13
+natural_offset_lb,17,2.765253763211595,replication_window_natural_offset_lb_s17

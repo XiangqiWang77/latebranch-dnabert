@@ -1,0 +1,198 @@
+[
+  {
+    "model": "window__neutral_terminal",
+    "batch_size": 1,
+    "k": 1,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 1.9622966647148132e-06
+  },
+  {
+    "model": "window__neutral_terminal",
+    "batch_size": 1,
+    "k": 3,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 1.9622966647148132e-06
+  },
+  {
+    "model": "window__neutral_terminal",
+    "batch_size": 32,
+    "k": 1,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 1.9622966647148132e-06
+  },
+  {
+    "model": "window__neutral_terminal",
+    "batch_size": 32,
+    "k": 3,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 1.9622966647148132e-06
+  },
+  {
+    "model": "chromosome__vanilla",
+    "batch_size": 1,
+    "k": 1,
+    "ordinary_max_error": 4.76837158203125e-07,
+    "saved_prediction_max_error": 1.0013580322265625e-05
+  },
+  {
+    "model": "chromosome__vanilla",
+    "batch_size": 1,
+    "k": 3,
+    "ordinary_max_error": 7.152557373046875e-07,
+    "saved_prediction_max_error": 1.0013580322265625e-05
+  },
+  {
+    "model": "chromosome__vanilla",
+    "batch_size": 32,
+    "k": 1,
+    "ordinary_max_error": 1.1801719665527344e-05,
+    "saved_prediction_max_error": 1.0013580322265625e-05
+  },
+  {
+    "model": "chromosome__vanilla",
+    "batch_size": 32,
+    "k": 3,
+    "ordinary_max_error": 1.6927719116210938e-05,
+    "saved_prediction_max_error": 1.0013580322265625e-05
+  },
+  {
+    "model": "window__vanilla_attention",
+    "batch_size": 1,
+    "k": 1,
+    "ordinary_max_error": 3.129243850708008e-07,
+    "saved_prediction_max_error": 2.1457672119140625e-06
+  },
+  {
+    "model": "window__vanilla_attention",
+    "batch_size": 1,
+    "k": 3,
+    "ordinary_max_error": 6.910413503646851e-07,
+    "saved_prediction_max_error": 2.1457672119140625e-06
+  },
+  {
+    "model": "window__vanilla_attention",
+    "batch_size": 32,
+    "k": 1,
+    "ordinary_max_error": 2.0712614059448242e-06,
+    "saved_prediction_max_error": 2.1457672119140625e-06
+  },
+  {
+    "model": "window__vanilla_attention",
+    "batch_size": 32,
+    "k": 3,
+    "ordinary_max_error": 2.7120113372802734e-06,
+    "saved_prediction_max_error": 2.1457672119140625e-06
+  },
+  {
+    "model": "window__vanilla",
+    "batch_size": 1,
+    "k": 1,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 1.233816146850586e-05
+  },
+  {
+    "model": "window__vanilla",
+    "batch_size": 1,
+    "k": 3,
+    "ordinary_max_error": 4.5299530029296875e-06,
+    "saved_prediction_max_error": 1.233816146850586e-05
+  },
+  {
+    "model": "window__vanilla",
+    "batch_size": 32,
+    "k": 1,
+    "ordinary_max_error": 1.2695789337158203e-05,
+    "saved_prediction_max_error": 1.233816146850586e-05
+  },
+  {
+    "model": "window__vanilla",
+    "batch_size": 32,
+    "k": 3,
+    "ordinary_max_error": 1.6689300537109375e-05,
+    "saved_prediction_max_error": 1.233816146850586e-05
+  },
+  {
+    "model": "chromosome__neutral_terminal",
+    "batch_size": 1,
+    "k": 1,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 6.467103958129883e-06
+  },
+  {
+    "model": "chromosome__neutral_terminal",
+    "batch_size": 1,
+    "k": 3,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 6.467103958129883e-06
+  },
+  {
+    "model": "chromosome__neutral_terminal",
+    "batch_size": 32,
+    "k": 1,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 6.467103958129883e-06
+  },
+  {
+    "model": "chromosome__neutral_terminal",
+    "batch_size": 32,
+    "k": 3,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 6.467103958129883e-06
+  },
+  {
+    "model": "window__natural_offset_lb",
+    "batch_size": 1,
+    "k": 1,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 3.471970558166504e-06
+  },
+  {
+    "model": "window__natural_offset_lb",
+    "batch_size": 1,
+    "k": 3,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 3.471970558166504e-06
+  },
+  {
+    "model": "window__natural_offset_lb",
+    "batch_size": 32,
+    "k": 1,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 3.471970558166504e-06
+  },
+  {
+    "model": "window__natural_offset_lb",
+    "batch_size": 32,
+    "k": 3,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 3.471970558166504e-06
+  },
+  {
+    "model": "chromosome__natural_offset_lb",
+    "batch_size": 1,
+    "k": 1,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 5.543231964111328e-06
+  },
+  {
+    "model": "chromosome__natural_offset_lb",
+    "batch_size": 1,
+    "k": 3,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 5.543231964111328e-06
+  },
+  {
+    "model": "chromosome__natural_offset_lb",
+    "batch_size": 32,
+    "k": 1,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 5.543231964111328e-06
+  },
+  {
+    "model": "chromosome__natural_offset_lb",
+    "batch_size": 32,
+    "k": 3,
+    "ordinary_max_error": 0.0,
+    "saved_prediction_max_error": 5.543231964111328e-06
+  }
+]

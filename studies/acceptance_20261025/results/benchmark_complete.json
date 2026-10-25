@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "gpu": "NVIDIA L40S",
+  "models": 7,
+  "records": 1120,
+  "comparisons": 28,
+  "source_sha256": "b807a6d82be9b5afa3f69523dfc10bf97655a1cc4afb20c678340bbf80b99071",
+  "scope": "Retained measurements from the original benchmark: same GPU allocation, both strands, FP32. Load time and disk I/O excluded. Timing repeats are technical replicates.",
+  "reference_reuse": "REF features computed once per packed multi-ALT workload for two-pass comparators; checked against standard predictions."
+}

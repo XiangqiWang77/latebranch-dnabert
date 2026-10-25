@@ -1,0 +1,422 @@
+[
+  {
+    "key": "window__natural_offset_lb",
+    "split": "window",
+    "method": "natural_offset_lb",
+    "family": "original",
+    "run_dir": "results/pilot_window_natural_offset_lb_s13",
+    "evaluation_dir": "single_seed_20261021/evaluation/outputs/pilot_window_natural_offset_lb_s13",
+    "checkpoint_sha256": "463b3655d1a5f64b03179132ccf4e2825592748fe7fb89e309f846f12c6c29da",
+    "config": {
+      "run_id": "pilot_window_natural_offset_lb_s13",
+      "method": "natural_offset_lb",
+      "seed": 13,
+      "split": "window",
+      "context_fields": [
+        "assay",
+        "tissue"
+      ],
+      "batch_size": 128
+    },
+    "training_summary": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "pilot_window_natural_offset_lb_s13",
+        "method": "natural_offset_lb",
+        "seed": 13,
+        "split": "window",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA A40",
+      "job_id": "30081525",
+      "shared_rho": [
+        0.12265756466774842,
+        0.10343021930304294,
+        0.09342541763330062,
+        0.23558623020850944,
+        0.11317700224072583
+      ],
+      "best_epoch": 3,
+      "epochs": 6,
+      "validation_nll": 2.7557213230140727,
+      "at_epoch_cap": false,
+      "training_seconds": 10370.871459288057,
+      "peak_gpu_gib": 6.483221530914307,
+      "trainable_parameters": 43991298,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "463b3655d1a5f64b03179132ccf4e2825592748fe7fb89e309f846f12c6c29da",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "calibration_sha256": "e075a64a50903ba84fb68792cc7764a69039e9a57ec4fc41fb49ce85398f3587",
+    "test_predictions_sha256": "66343a18aa1a81c5fa32468cfcb728731685b4972d3e89228826d671f93dc2cb"
+  },
+  {
+    "key": "window__neutral_terminal",
+    "split": "window",
+    "method": "neutral_terminal",
+    "family": "original",
+    "run_dir": "results/pilot_window_neutral_terminal_s13",
+    "evaluation_dir": "single_seed_20261021/evaluation/outputs/pilot_window_neutral_terminal_s13",
+    "checkpoint_sha256": "e6b6d2208972a778013cd7b44fd39b9df8939d41e066f6f88d62459027253f24",
+    "config": {
+      "run_id": "pilot_window_neutral_terminal_s13",
+      "method": "neutral_terminal",
+      "seed": 13,
+      "split": "window",
+      "context_fields": [
+        "assay",
+        "tissue"
+      ],
+      "batch_size": 128
+    },
+    "training_summary": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "pilot_window_neutral_terminal_s13",
+        "method": "neutral_terminal",
+        "seed": 13,
+        "split": "window",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA A40",
+      "job_id": "30081524",
+      "shared_rho": [
+        0.12265756466774842,
+        0.10343021930304294,
+        0.09342541763330062,
+        0.23558623020850944,
+        0.11317700224072583
+      ],
+      "best_epoch": 2,
+      "epochs": 5,
+      "validation_nll": 2.758564846693652,
+      "at_epoch_cap": false,
+      "training_seconds": 4685.720085039735,
+      "peak_gpu_gib": 2.7945899963378906,
+      "trainable_parameters": 43988226,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "e6b6d2208972a778013cd7b44fd39b9df8939d41e066f6f88d62459027253f24",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "calibration_sha256": "682e27d54e19ebe23caab5954f09c095bcd49eb18a078b0a7faaa09910308998",
+    "test_predictions_sha256": "fb2309278e0c20605edaf379169a288f04a5e103b7c42942d4e08f1e5ea6eb81"
+  },
+  {
+    "key": "window__vanilla",
+    "split": "window",
+    "method": "vanilla",
+    "family": "original",
+    "run_dir": "results/pilot_window_vanilla_s13",
+    "evaluation_dir": "single_seed_20261021/evaluation/outputs/pilot_window_vanilla_s13",
+    "checkpoint_sha256": "27a85289e9fc7f8e0651a84ef4d1cb3bf3bf65e67679f4aee60cd77f830ef4f8",
+    "config": {
+      "run_id": "pilot_window_vanilla_s13",
+      "method": "vanilla",
+      "seed": 13,
+      "split": "window",
+      "context_fields": [
+        "assay",
+        "tissue"
+      ],
+      "batch_size": 128
+    },
+    "training_summary": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "pilot_window_vanilla_s13",
+        "method": "vanilla",
+        "seed": 13,
+        "split": "window",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA L40S",
+      "job_id": "30091097",
+      "shared_rho": [
+        0.12265756466774842,
+        0.10343021930304294,
+        0.09342541763330062,
+        0.23558623020850944,
+        0.11317700224072583
+      ],
+      "best_epoch": 4,
+      "epochs": 7,
+      "validation_nll": 2.766238505699374,
+      "at_epoch_cap": false,
+      "training_seconds": 7898.698674090672,
+      "peak_gpu_gib": 3.4903364181518555,
+      "trainable_parameters": 44868353,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "27a85289e9fc7f8e0651a84ef4d1cb3bf3bf65e67679f4aee60cd77f830ef4f8",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "calibration_sha256": "2b3a222e17727fc207253bb4a1b73936c6cc11bca61b117a1a77f645401a66c9",
+    "test_predictions_sha256": "21846319ff8c1e92c297b11b8f990fb3b88e1898abd6a88f24dd9a16b78ac184"
+  },
+  {
+    "key": "chromosome__natural_offset_lb",
+    "split": "chromosome",
+    "method": "natural_offset_lb",
+    "family": "original",
+    "run_dir": "results/replication_chromosome_natural_offset_lb_s13",
+    "evaluation_dir": "single_seed_20261021/evaluation/outputs/replication_chromosome_natural_offset_lb_s13",
+    "checkpoint_sha256": "4378737f043e2d9dd528424f9ddec26dde784b3a0e67c6f88ba7c0e307b3e86b",
+    "config": {
+      "run_id": "replication_chromosome_natural_offset_lb_s13",
+      "method": "natural_offset_lb",
+      "seed": 13,
+      "split": "chromosome",
+      "context_fields": [
+        "assay",
+        "tissue"
+      ],
+      "batch_size": 128
+    },
+    "training_summary": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "replication_chromosome_natural_offset_lb_s13",
+        "method": "natural_offset_lb",
+        "seed": 13,
+        "split": "chromosome",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA A40",
+      "job_id": "30172987",
+      "shared_rho": [
+        0.17734849991276735,
+        0.15621946933246253,
+        0.13595250069188536,
+        0.3188742373224783,
+        0.16639336463678853
+      ],
+      "best_epoch": 3,
+      "epochs": 6,
+      "validation_nll": 2.7320194202718966,
+      "at_epoch_cap": false,
+      "training_seconds": 9016.129054515157,
+      "peak_gpu_gib": 6.481070041656494,
+      "trainable_parameters": 43991298,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "4378737f043e2d9dd528424f9ddec26dde784b3a0e67c6f88ba7c0e307b3e86b",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "calibration_sha256": "f1c7968e18613f1844a8f76f304f8504d942766e23120ba97da98048cc6413d5",
+    "test_predictions_sha256": "bda1962e97550999325d7ac386723e0300738b36d2220053e011f3fdd9aa2e46"
+  },
+  {
+    "key": "chromosome__neutral_terminal",
+    "split": "chromosome",
+    "method": "neutral_terminal",
+    "family": "original",
+    "run_dir": "results/replication_chromosome_neutral_terminal_s13",
+    "evaluation_dir": "single_seed_20261021/evaluation/outputs/replication_chromosome_neutral_terminal_s13",
+    "checkpoint_sha256": "b1dd328945d65bb1fc060134824477e8028527c59c50b78c7f939a8c31da2302",
+    "config": {
+      "run_id": "replication_chromosome_neutral_terminal_s13",
+      "method": "neutral_terminal",
+      "seed": 13,
+      "split": "chromosome",
+      "context_fields": [
+        "assay",
+        "tissue"
+      ],
+      "batch_size": 128
+    },
+    "training_summary": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "replication_chromosome_neutral_terminal_s13",
+        "method": "neutral_terminal",
+        "seed": 13,
+        "split": "chromosome",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA L40S",
+      "job_id": "30173398",
+      "shared_rho": [
+        0.17734849991276735,
+        0.15621946933246253,
+        0.13595250069188536,
+        0.3188742373224783,
+        0.16639336463678853
+      ],
+      "best_epoch": 2,
+      "epochs": 5,
+      "validation_nll": 2.722224706764136,
+      "at_epoch_cap": false,
+      "training_seconds": 3132.9154549259692,
+      "peak_gpu_gib": 2.794858932495117,
+      "trainable_parameters": 43988226,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "b1dd328945d65bb1fc060134824477e8028527c59c50b78c7f939a8c31da2302",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "calibration_sha256": "2b6bf0d8641aa45d129cd3ff386bdc9e3630cc3280b64442e6b7a07f2e2f2e1b",
+    "test_predictions_sha256": "fe7b0f9d75da83af36120a86b994c5b23f8b47db723daa4f09a51a8832cbadc1"
+  },
+  {
+    "key": "chromosome__vanilla",
+    "split": "chromosome",
+    "method": "vanilla",
+    "family": "original",
+    "run_dir": "results/replication_chromosome_vanilla_s13",
+    "evaluation_dir": "single_seed_20261021/evaluation/outputs/replication_chromosome_vanilla_s13",
+    "checkpoint_sha256": "98446de5bd3cc789cca1ebabee762ae5042f0790b2c2879e42fa7ec437f54115",
+    "config": {
+      "run_id": "replication_chromosome_vanilla_s13",
+      "method": "vanilla",
+      "seed": 13,
+      "split": "chromosome",
+      "context_fields": [
+        "assay",
+        "tissue"
+      ],
+      "batch_size": 128
+    },
+    "training_summary": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "replication_chromosome_vanilla_s13",
+        "method": "vanilla",
+        "seed": 13,
+        "split": "chromosome",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA L40S",
+      "job_id": "30173399",
+      "shared_rho": [
+        0.17734849991276735,
+        0.15621946933246253,
+        0.13595250069188536,
+        0.3188742373224783,
+        0.16639336463678853
+      ],
+      "best_epoch": 2,
+      "epochs": 5,
+      "validation_nll": 2.7290466483862077,
+      "at_epoch_cap": false,
+      "training_seconds": 4862.831671483349,
+      "peak_gpu_gib": 3.4860758781433105,
+      "trainable_parameters": 44868353,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "98446de5bd3cc789cca1ebabee762ae5042f0790b2c2879e42fa7ec437f54115",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "calibration_sha256": "165ad1eaa6791e4e24623b3444b145c26d4a3106c19c6540d9a253f370fb391f",
+    "test_predictions_sha256": "79e85e9e1ceaa289b34f0477cdd2456c39caef3385e909b1e782f36fb6500559"
+  },
+  {
+    "key": "window__vanilla_attention",
+    "split": "window",
+    "method": "vanilla_attention",
+    "family": "matched",
+    "run_dir": "reviewer_repair_20261022/results/reviewer_window_vanilla_attention_s13",
+    "evaluation_dir": "reviewer_repair_20261022/evaluation/vanilla_attention",
+    "checkpoint_sha256": "91c1a210f368b515c1291d90877c25abf60b2f7d6756d37eed3a42e8a5d1f416",
+    "config": {
+      "run_id": "reviewer_window_vanilla_attention_s13",
+      "method": "vanilla_attention",
+      "seed": 13,
+      "split": "window",
+      "context_fields": [
+        "assay",
+        "tissue"
+      ],
+      "batch_size": 128
+    },
+    "training_summary": {
+      "status": "complete",
+      "phase": "development_validation_only",
+      "config": {
+        "run_id": "reviewer_window_vanilla_attention_s13",
+        "method": "vanilla_attention",
+        "seed": 13,
+        "split": "window",
+        "context_fields": [
+          "assay",
+          "tissue"
+        ],
+        "batch_size": 128
+      },
+      "gpu": "NVIDIA A40",
+      "job_id": "30309411",
+      "shared_rho": [
+        0.12265756466774842,
+        0.10343021930304294,
+        0.09342541763330062,
+        0.23558623020850944,
+        0.11317700224072583
+      ],
+      "best_epoch": 3,
+      "epochs": 6,
+      "validation_nll": 2.7636903054962128,
+      "at_epoch_cap": false,
+      "training_seconds": 9598.975403664168,
+      "peak_gpu_gib": 3.558645725250244,
+      "trainable_parameters": 43395329,
+      "backbone_trainable_parameters": 37776384,
+      "checkpoint_sha256": "91c1a210f368b515c1291d90877c25abf60b2f7d6756d37eed3a42e8a5d1f416",
+      "test_evaluated": false,
+      "calibration_evaluated": false,
+      "training_population": "all eligible rows; equal observation weights",
+      "strand_policy": "random RC training; mean of forward and RC logits for validation",
+      "loss": "FP64 beta-binomial count NLL, no direction BCE"
+    },
+    "calibration_sha256": "275899310b6f008338667beb3cbf06cbf8c0be0efbcbcaf082faffc5a53fedb2",
+    "test_predictions_sha256": "f755e2b6ead88cbe81528db06622ccbff48db83ff376ad2f7f34cb0fef3aa90b"
+  }
+]
