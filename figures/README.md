@@ -6,7 +6,7 @@ The four plates are preserved from the [six-page report](../reports/positive.pdf
 
    ![Design and encoding](overview.png)
 
-2. **Predictive evidence.** Full-population density plots, assay-fraction reliability, and raw/calibrated endpoint comparisons against vanilla. [Description](prediction.description.txt).
+2. **Predictive evidence and calibration.** Full-population density plots, window and held-out-chromosome partition schematics, independent assay-scale calibration, and the measured NLL cost of omitting it. [Description](prediction.description.txt).
 
    ![Predictive evidence](prediction.png)
 
