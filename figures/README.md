@@ -14,7 +14,7 @@ The four plates are preserved from the [six-page report](../reports/positive.pdf
 
    ![Sequence patterns](patterns.png)
 
-4. **Pattern–attention alignment.** Case-level native-base sensitivity, added-readout attention and population distance distributions. [Description](attention.description.txt).
+4. **Seqlet and attention.** A CTCF case with a track legend, a measured seqlet example and extraction workflow, plus population attention-distance distributions. [Description](attention.description.txt).
 
    ![Pattern and attention alignment](attention.png)
 
